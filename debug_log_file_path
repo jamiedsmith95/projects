@@ -1,0 +1,1420 @@
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: insert enter
+שׁ  |1: changed
+שׁ  |1: delta |2: William |3: William |4:  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: am |3: Willia |4: William |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: lia |3: Will |4: Willia |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: ll |3: Wil |4: Will |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: Wil |3: W |4: Wil |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: changed
+שׁ  |1: delta |2: oP |3: oP |4: o |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: oP |3: o |4: oP |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: o |3:  |4: o |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: P |3: P |4:  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: Pr |3: Pr |4: P |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: roj |3: Proj |4: Pr |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: je |3: Proje |4: Proj |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: ec |3: Projec |4: Proje |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: ct |3: Project |4: Projec |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: t  |3: Project  |4: Project |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2:  f |3: Project f |4: Project  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: fil |3: Project fil |4: Project f |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: le |3: Project file |4: Project fil |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: es |3: Project files |4: Project file |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: s  |3: Project files  |4: Project files |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2:  co |3: Project files co |4: Project files  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: ont |3: Project files cont |4: Project files co |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: tain |3: Project files contain |4: Project files cont |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: ning |3: Project files containing |4: Project files contain |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: g  |3: Project files containing  |4: Project files containing |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2:  su |3: Project files containing su |4: Project files containing  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: ub |3: Project files containing sub |4: Project files containing su |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: bfil |3: Project files containing subfil |4: Project files containing sub |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: le |3: Project files containing subfile |4: Project files containing subfil |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: ile |3: Project files containing subfi |4: Project files containing subfile |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: bfi |3: Project files containing sub |4: Project files containing subfi |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: mode:    |2: niI
+שׁ  |1: mode:  niI  |2: niI
+שׁ  |1: insert enter
+שׁ  |1: delta |2: Project files containing  |3: Project files containing  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: mode:    |2: niI
+שׁ  |1: mode:  niI  |2: niI
+שׁ  |1: insert enter
+שׁ  |1: delta |2: Project files  |3: Project files  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: mode:    |2: niI
+שׁ  |1: mode:  niI  |2: niI
+שׁ  |1: insert enter
+שׁ  |1: delta |2: Project  |3: Project  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2:  d |3: Project d |4: Project  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: changed
+שׁ  |1: delta |2: dir |3: Project dir |4: Project d |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: Project dir |3: Project dir |4: Project dir |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: re |3: Project dire |4: Project dir |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: ec |3: Project direc |4: Project dire |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: ct |3: Project direct |4: Project direc |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: to |3: Project directo |4: Project direct |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: or |3: Project director |4: Project directo |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: ry |3: Project directory |4: Project director |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: y  |3: Project directory  |4: Project directory |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2:  c |3: Project directory c |4: Project directory  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: co |3: Project directory co |4: Project directory c |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: on |3: Project directory con |4: Project directory co |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: nt |3: Project directory cont |4: Project directory con |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: ta |3: Project directory conta |4: Project directory cont |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: ain |3: Project directory contain |4: Project directory conta |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: ns |3: Project directory contains |4: Project directory contain |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: s  |3: Project directory contains  |4: Project directory contains |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2:  p |3: Project directory contains p |4: Project directory contains  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: pr |3: Project directory contains pr |4: Project directory contains p |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: ra |3: Project directory contains pra |4: Project directory contains pr |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: ac |3: Project directory contains prac |4: Project directory contains pra |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: ct |3: Project directory contains pract |4: Project directory contains prac |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: tic |3: Project directory contains practic |4: Project directory contains pract |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: Project directory contains practic |3: Project directory contains practic |4: Project directory contains practic |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: ce |3: Project directory contains practice |4: Project directory contains practic |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: e  |3: Project directory contains practice  |4: Project directory contains practice |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: changed
+שׁ  |1: delta |2:  p |3: Project directory contains practice p |4: Project directory contains practice  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: Project directory contains practice p |3: Project directory contains practice p |4: Project directory contains practice p |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: pr |3: Project directory contains practice pr |4: Project directory contains practice p |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: Project directory contains practice pr |3: Project directory contains practice pr |4: Project directory contains practice pr |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: ro |3: Project directory contains practice pro |4: Project directory contains practice pr |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: oj |3: Project directory contains practice proj |4: Project directory contains practice pro |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: je |3: Project directory contains practice proje |4: Project directory contains practice proj |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: ec |3: Project directory contains practice projec |4: Project directory contains practice proje |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: ct |3: Project directory contains practice project |4: Project directory contains practice projec |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: ts |3: Project directory contains practice projects |4: Project directory contains practice project |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: s  |3: Project directory contains practice projects  |4: Project directory contains practice projects |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2:  s |3: Project directory contains practice projects s |4: Project directory contains practice projects  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: se |3: Project directory contains practice projects se |4: Project directory contains practice projects s |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: ep |3: Project directory contains practice projects sep |4: Project directory contains practice projects se |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: pa |3: Project directory contains practice projects sepa |4: Project directory contains practice projects sep |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: ar |3: Project directory contains practice projects separ |4: Project directory contains practice projects sepa |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: ra |3: Project directory contains practice projects separa |4: Project directory contains practice projects separ |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: at |3: Project directory contains practice projects separat |4: Project directory contains practice projects separa |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: te |3: Project directory contains practice projects separate |4: Project directory contains practice projects separat |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: ed |3: Project directory contains practice projects separated |4: Project directory contains practice projects separate |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: d  |3: Project directory contains practice projects separated  |4: Project directory contains practice projects separated |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2:  b |3: Project directory contains practice projects separated b |4: Project directory contains practice projects separated  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: by |3: Project directory contains practice projects separated by |4: Project directory contains practice projects separated b |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: y  |3: Project directory contains practice projects separated by  |4: Project directory contains practice projects separated by |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: changed
+שׁ  |1: delta |2:  s |3: Project directory contains practice projects separated by s |4: Project directory contains practice projects separated by  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: Project directory contains practice projects separated by s |3: Project directory contains practice projects separated by s |4: Project directory contains practice projects separated by s |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2:  s |3: Project directory contains practice projects separated by  |4: Project directory contains practice projects separated by s |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2:  g |3: Project directory contains practice projects separated by g |4: Project directory contains practice projects separated by  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: ge |3: Project directory contains practice projects separated by ge |4: Project directory contains practice projects separated by g |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: en |3: Project directory contains practice projects separated by gen |4: Project directory contains practice projects separated by ge |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: ne |3: Project directory contains practice projects separated by gene |4: Project directory contains practice projects separated by gen |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: er |3: Project directory contains practice projects separated by gener |4: Project directory contains practice projects separated by gene |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: ra |3: Project directory contains practice projects separated by genera |4: Project directory contains practice projects separated by gener |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: al |3: Project directory contains practice projects separated by general |4: Project directory contains practice projects separated by genera |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: l  |3: Project directory contains practice projects separated by general  |4: Project directory contains practice projects separated by general |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2:  s |3: Project directory contains practice projects separated by general s |4: Project directory contains practice projects separated by general  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: su |3: Project directory contains practice projects separated by general su |4: Project directory contains practice projects separated by general s |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: ub |3: Project directory contains practice projects separated by general sub |4: Project directory contains practice projects separated by general su |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: bj |3: Project directory contains practice projects separated by general subj |4: Project directory contains practice projects separated by general sub |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: je |3: Project directory contains practice projects separated by general subje |4: Project directory contains practice projects separated by general subj |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: ec |3: Project directory contains practice projects separated by general subjec |4: Project directory contains practice projects separated by general subje |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: ct |3: Project directory contains practice projects separated by general subject |4: Project directory contains practice projects separated by general subjec |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: t. |3: Project directory contains practice projects separated by general subject. |4: Project directory contains practice projects separated by general subject |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: t. |3: Project directory contains practice projects separated by general subject |4: Project directory contains practice projects separated by general subject. |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: insert enter
+שׁ  |1: changed
+שׁ  |1: delta |2: 	url = git@github.com: |3: 	url = git@github.com: |4:  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: om: |3: 	url = git@github.co |4: 	url = git@github.com: |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: co |3: 	url = git@github.c |4: 	url = git@github.co |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: b.c |3: 	url = git@github |4: 	url = git@github.c |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: hub |3: 	url = git@gith |4: 	url = git@github |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: ith |3: 	url = git@gi |4: 	url = git@gith |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: gi |3: 	url = git@g |4: 	url = git@gi |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: @g |3: 	url = git@ |4: 	url = git@g |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: t@ |3: 	url = git |4: 	url = git@ |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: it |3: 	url = gi |4: 	url = git |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: gi |3: 	url = g |4: 	url = gi |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2:  g |3: 	url =  |4: 	url = g |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2:  h |3: 	url = h |4: 	url =  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: ht |3: 	url = ht |4: 	url = h |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: tt |3: 	url = htt |4: 	url = ht |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: tp |3: 	url = http |4: 	url = htt |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: ps |3: 	url = https |4: 	url = http |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: s: |3: 	url = https: |4: 	url = https |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: :/ |3: 	url = https:/ |4: 	url = https: |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: // |3: 	url = https:// |4: 	url = https:/ |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: /g |3: 	url = https://g |4: 	url = https:// |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: git |3: 	url = https://git |4: 	url = https://g |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: th |3: 	url = https://gith |4: 	url = https://git |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: hu |3: 	url = https://githu |4: 	url = https://gith |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: ub |3: 	url = https://github |4: 	url = https://githu |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: b. |3: 	url = https://github. |4: 	url = https://github |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: .co |3: 	url = https://github.co |4: 	url = https://github. |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: om |3: 	url = https://github.com |4: 	url = https://github.co |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: m/ |3: 	url = https://github.com/ |4: 	url = https://github.com |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: delta |2: 	url = https://github.com |3: 	url = https://github.com |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
