@@ -1,5 +1,3 @@
-
-
 // fn name_print(first: &str, second: &str) {
 //     println!("{}", first);
 //     println!("{}", second);
@@ -17,7 +15,7 @@
 //     }
 
 // }
- 
+
 // fn five(num: i32) {
 //     if num > 5 {
 //         println!(">5");
@@ -47,7 +45,7 @@
 // fn display_until(end: i32)  {
 //     let mut iter = 1;
 //     loop {
-//         println!("{iter:?}");
+//         println!("{iter}");
 //         if (iter == end) { break;}
 //         iter = iter + 1;
 
@@ -58,7 +56,7 @@
 //     // put mut before function arg to indicate its mutable inside, num put in doesn't need to be
 //     // mut
 //     while (from > 0) {
-//         println!("{from:?}");
+//         println!("{from}");
 //         from = from - 1;
 //     }
 // }
@@ -115,20 +113,15 @@
 //     quantity: i32,
 //     id: i32,
 // }
- 
+
 // fn disp_quant(my_item: &item) {
-//     println!("The quantity is: {:?}", my_item.quantity );
+//     println!("The quantity is: {}", my_item.quantity );
 
 // }
 // fn disp_id(my_item: &item) {
-//     println!( "The id is: {:?}", my_item.id);
+//     println!( "The id is: {}", my_item.id);
 // }
 
-// enum Colour {
-//     Blue,
-//     Green,
-//     Red
-// }
 // #[derive(Debug)]
 // struct Dimension {
 //     x: f64,
@@ -159,8 +152,8 @@
 //     }
 
 //     fn print_box(&self) {
-//         println!("Box has dimensions of {:?}, {:?}, {:?}", self.dimension.x,self.dimension.y,self.dimension.z);
-//         println!("Box weighs {:?}",self.weight);
+//         println!("Box has dimensions of {}, {}, {}", self.dimension.x,self.dimension.y,self.dimension.z);
+//         println!("Box weighs {}",self.weight);
 //         self.colour.print()
 
 //     }
@@ -175,25 +168,148 @@
 //         }
 //     }
 // }
+// enum Colour {
+//     Blue,
+//     Green,
+//     Red
+// }
 
+// struct Person {
+//     Age: i32,
+//     Name: String,
+//     FavCol: String,
+// }
+
+// let people = vec![
+//     Person {
+//         Age: 28,
+//         Name: "Jamie".to_owned(),
+//         FavCol: "Red".to_owned(),
+//     },
+//     Person {
+//         Age:27,
+//         Name: "Bob".to_owned(),
+//         FavCol: "Green".to_owned(),
+//     },
+//     Person {
+//         Age:23,
+//         Name: "Joe".to_owned(),
+//         FavCol: String::from("Teal")
+//     }
+// ];
+// for person in people {
+//     match person.Age {
+//         27 => person.print(),
+//         23 => person.print(),
+//         _ => continue,
+
+//     }
+// }
+
+// impl Person {
+//     fn print(&self) {
+//         println!("Name is: {}",self.Name);
+//         println!("Favourite colour is: {}", self.FavCol);
+//     }
+// }
+
+// #[derive(Debug)]
+// enum Pass {
+//     Vip,
+//     Backstage,
+//     Standard,
+// }
+
+// #[derive(Debug)]
+// struct ticket {
+//     pass: Pass,
+//     price: f64,
+//     name: String,
+// }
+//     let mut people: Vec<ticket> = vec! [{ticket {pass: Pass::Vip, price: 23.6, name: String::from("Jamie")}}];
+//     people.push(ticket {pass: Pass::Standard, price: 12., name: String::from("Guy")});
+//     people.push(ticket {pass: Pass::Backstage, price: 19., name: String::from("Bob")});
+
+//     for person in people {
+//         match person {
+//             ticket {pass: Pass::Standard,price,..}  => println!("A standard ticket at {:?}", price),
+//             ticket {pass: other, price, name} => println!("A {:?} ticket at {:?} for {:?}",other,price,name),
+//             _ => ()
+//         }
+//     }
+
+// #[derive(Debug)]
+// struct Student {
+//     name: String,
+//     locker: Option<i32>,
+// }
+
+// impl Student {
+//     /// Creates a new [`Student`].
+//     fn new(name: String, locker: Option<i32>) -> Self {
+//         Self { name, locker }
+//     }
+
+//     fn print(&self) {
+//         match self.locker {
+//             Some(locker)  => println!("{}'s locker number is: {:?}", self.name, locker),
+//             _ => println!("{} has no locker",self.name)
+
+
+
+//         };
+//     }
+// }
+
+// #[derive(Debug)]
+// struct Adult {
+//     name: String,
+//     age: i32,
+// }
+// impl Adult {
+//     fn new(name: &str, age: i32) -> Result<Adult,&str> {
+//         match (age>21) {
+//             true => Ok(Adult{name: name.to_owned(),age}),
+//             _ => Err(" is not an adult."),
+//         }
+//     }
+    
+// }
+    // let jamie = Adult::new("Jamie",28);
+    // let young = Adult::new("young'un",13);
+
+    // let mut people = vec![];
+    // people.push(jamie);
+    // people.push(young);
+    // for person in people { 
+    //     match person {
+    //         Ok(person) => println!("{} is {} years old", person.name, person.age),
+    //         Err(e) => println!("{e}"),
+    //     }
+    // }
+    //
+
+use std::collections::HashMap;
 fn main() {
-    let nums = vec![10,20,30,40];
-    for num in nums {
-        if (num ==30) {
-            println!("thirty");
-        } else {
-            println!("{:?}",num);
+    let mut map = HashMap::new();
+    map.insert("Chairs", 5);
+    map.insert("Beds", 3);
+    map.insert("Tables", 2);
+    map.insert("Couches",0);
+
+    for (item, stock) in map.iter() {
+        match stock {
+            0 => println!("{} out of stock",item),
+            _ => println!("{} has {} units",item,stock),
         }
     }
 
-
-
-
-
-
-
-
 }
+
+
+
+
+
 
 
 
