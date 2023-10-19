@@ -1,11 +1,17 @@
 use std::{env,fmt::{self, format}, fs, io, path::{Path,PathBuf}, vec, ops::Deref};
 use colored::*;
-use termion;
+use crossterm::cursor;
+use termion::{cursor::DetectCursorPos, raw::IntoRawMode};
 
 #[derive(Debug)]
 enum Ford {
     File,
     Dir,
+}
+
+struct Item {
+    ford: Ford,
+    name: String,
 }
 
 fn get_termsize() -> (u16,u16) {
@@ -45,55 +51,55 @@ fn get_long<'a>(content: &Vec<PathBuf>) -> Option<PathBuf> {
 
 }
 
-fn main() {
-    let content = get_contents();
-    // let mut files = Vec::new();
-    // let mut direcs = Vec::new();
-    let (width, height) = get_termsize();
-    let mut counter = 1;
-    let binding = get_long(&content).unwrap();
-    let longest = binding.to_str().expect("REASON");
-    let mut long: usize;
-    if (content.len() > width as usize/longest.len()) {
-        long = longest.len();
-    } else {
-        long = 5;
+fn itemprint(item: &Item, long: &usize) {
+    match item.ford {
+        Ford::File => print!("{:<}  ", item.name.red()),//,width = long),
+        Ford::Dir => print!("{:<}  ", item.name.green()),//,width = long),
     }
-    let mut curlen = 0;
+}
 
-
-
+fn sort(content: &Vec<PathBuf>) -> Vec<Item> {
+    let mut all: Vec<Item> = Vec::new();
     for path in content.iter() {
-        // if counter % 8 == 0 {// || (content.len() < 6 && counter % 2 == 0 ){
-        if curlen + long >= width.into() {
-            print!("\n");
-            curlen = long +2;
-        }
 
         match Some(path.is_dir()) {
             Some(true) => {
                 let Some(direc) = path.to_str() else { todo!()};
-                // direcs.push(direc);
-                // print!(" {:} ",direc.expect("REASON").yellow());
-                
-                print!("{:<a$}  ",direc[2..direc.len()].blue(),a=long+2);
-                curlen = curlen + long;
-                counter = counter + 1;
+                all.push(Item { ford: Ford::Dir, name: direc[2..direc.len()].to_string()});
 
             },
             Some(false) => {
                 let Some(file) = path.to_str() else { todo!()};
-                // files.push(file);
-                // print!("{:<width$} ",file,width=long);
-                print!("{:<a$}  ",file[2..file.len()].red(),a=long+2);
-                curlen = curlen + long;
-                counter = counter + 1;
+                all.push(Item { ford: Ford::File, name: file[2..file.len()].to_string()});
 
             },
             None => todo!()
         }
     }
-        print!("\n");
+    return all
+}
+fn checkspace(width: usize, length: &usize) {
+    let Ok((x, y)): Result<(u16, u16), io::Error> = std::io::stdout().into_raw_mode().unwrap().cursor_pos() else { todo!() };
+    if (width - x as usize) <= *length {
+        print!("\n")
+        // print!("\r");
+    }
+}
+
+
+fn main() {
+    let content = get_contents();
+    let (width, _) = get_termsize();
+    let binding = get_long(&content).unwrap();
+    let longest = binding.to_str().expect("REASON");
+    let long = longest.len();
+    let all = sort(&content);
+    println!("{} {}",width,long);
+    for item in all.iter() {
+        checkspace(width as usize, &item.name.len().into());
+        itemprint(item, &long);
+    }
+    print!("\n")
 }
 
 
