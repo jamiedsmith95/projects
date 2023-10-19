@@ -50,16 +50,24 @@ fn main() {
     // let mut files = Vec::new();
     // let mut direcs = Vec::new();
     let (width, height) = get_termsize();
-    let mut counter = 0;
+    let mut counter = 1;
     let binding = get_long(&content).unwrap();
-    let long = binding.to_str().expect("REASON");
-    println!("{}",&long);
+    let longest = binding.to_str().expect("REASON");
+    let mut long: usize;
+    if (content.len() > width as usize/longest.len()) {
+        long = longest.len();
+    } else {
+        long = 5;
+    }
+    let mut curlen = 0;
 
 
 
     for path in content.iter() {
-        if counter % 5 == 0 || (content.len() < 6 && counter % 2 == 0 ){
-            // print!("\n");
+        // if counter % 8 == 0 {// || (content.len() < 6 && counter % 2 == 0 ){
+        if curlen + long >= width.into() {
+            print!("\n");
+            curlen = long +2;
         }
 
         match Some(path.is_dir()) {
@@ -67,23 +75,25 @@ fn main() {
                 let Some(direc) = path.to_str() else { todo!()};
                 // direcs.push(direc);
                 // print!(" {:} ",direc.expect("REASON").yellow());
-                let formatted = format!("{: <{a}}",a=long, &direc);
-                print!(" {} ",formatted);
+                
+                print!("{:<a$}  ",direc[2..direc.len()].blue(),a=long+2);
+                curlen = curlen + long;
                 counter = counter + 1;
 
             },
             Some(false) => {
                 let Some(file) = path.to_str() else { todo!()};
-                let formatted = format!("{: <{a}}",a=long, &file);
                 // files.push(file);
-                print!(" {} ",formatted);
+                // print!("{:<width$} ",file,width=long);
+                print!("{:<a$}  ",file[2..file.len()].red(),a=long+2);
+                curlen = curlen + long;
                 counter = counter + 1;
 
             },
             None => todo!()
         }
     }
-    println!("\n")
+        print!("\n");
 }
 
 
