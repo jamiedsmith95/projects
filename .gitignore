@@ -1,2 +1,5 @@
 PyProjects/testcrawler.py
 PyProjects/selenium/
+rusty/target/
+rusty/projects/rustls/target/
+
