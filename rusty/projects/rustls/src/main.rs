@@ -1,4 +1,4 @@
-use std::{env::{args, Args},fmt::{self, format}, fs, io, path::{Path,PathBuf}, vec, ops::Deref};
+use std::{env::{args, Args},fmt::{self, format}, fs, io, path::{Path,PathBuf}, vec, ops::Deref, usize};
 use colored::*;
 use crossterm::cursor;
 use termion::{cursor::DetectCursorPos, raw::IntoRawMode};
@@ -65,10 +65,15 @@ fn get_long<'a>(content: &Vec<PathBuf>) -> Option<PathBuf> {
 
 }
 
-fn itemprint(item: &Item) {
+fn itemprint(item: &Item, long: usize) {
+    let (mut theitem): String = item.name.to_owned();
+    // theitem.truncate(long).to_owned();
+    if item.name.len() > long { 
+        theitem = theitem[0..long].to_string();
+    }
     match item.ford {
-        Ford::File => print!("{:<}  ", item.name.red()),//,width = long),
-        Ford::Dir => print!("{:<}  ", item.name.green()),//,width = long),
+        Ford::File => print!("{:long$}  ", theitem.cyan()),//,width = long),
+        Ford::Dir => print!("{:<long$}  ", theitem.purple()),//,width = long),
     }
 }
 
@@ -92,26 +97,30 @@ fn sort(content: &Vec<PathBuf>) -> Vec<Item> {
     }
     return all
 }
-fn checkspace(width: usize, length: &usize) {
+fn checkspace(item: &Item, long:usize) {
+    let (width,_) = get_termsize();
     let Ok((x, y)): Result<(u16, u16), io::Error> = std::io::stdout().into_raw_mode().unwrap().cursor_pos() else { todo!() };
-    if (width - x as usize) <= *length {
-        print!("\n")
-        // print!("\r");
+    if (width - x ) <= long as u16 {
+        print!("\n");
+        itemprint(item, long)
+    } else {
+        itemprint(item, long)
     }
 }
 
 
 fn main() {
     let content = get_contents();
-    let (width, _) = get_termsize();
     let binding = get_long(&content).unwrap();
     let longest = binding.to_str().expect("REASON");
-    let long = longest.len();
+    let long = match longest.len() > 15 {
+        true => 15,
+        false => longest.len(),
+    };
     let all = sort(&content);
-    println!("{} {}",width,long);
     for item in all.iter() {
-        checkspace(width as usize, &item.name.len().into());
-        itemprint(item);
+        checkspace(item,long);
+        // itemprint(item,long);
     }
     print!("\n")
 }
