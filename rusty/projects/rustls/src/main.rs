@@ -1,4 +1,4 @@
-use std::{env,fmt::{self, format}, fs, io, path::{Path,PathBuf}, vec, ops::Deref};
+use std::{env::{args, Args},fmt::{self, format}, fs, io, path::{Path,PathBuf}, vec, ops::Deref};
 use colored::*;
 use crossterm::cursor;
 use termion::{cursor::DetectCursorPos, raw::IntoRawMode};
@@ -20,7 +20,9 @@ fn get_termsize() -> (u16,u16) {
 
 fn get_contents() -> Vec<PathBuf> {
     //get the contents of the desired directory
-    fs::read_dir(".")
+    let binding = get_loc();
+    let pathb = Path::new(&binding);
+    fs::read_dir(pathb)
         .unwrap()
         .filter_map(|e| e.ok())
         .map(|e| e.path())
@@ -29,6 +31,18 @@ fn get_contents() -> Vec<PathBuf> {
 
 // fn get_args
 //
+fn get_loc() -> String {
+    let my_args = args().collect::<Vec<String>>();
+    println!("{:?}",my_args.len());
+    match &my_args.len() {
+        2 => {
+           return my_args[1].as_str().to_owned();
+           // return lastarg
+
+        }
+        _ => return "./".to_string(),
+
+}}
 
 fn get_long<'a>(content: &Vec<PathBuf>) -> Option<PathBuf> {
     let pathb = PathBuf::from(" ");
@@ -51,7 +65,7 @@ fn get_long<'a>(content: &Vec<PathBuf>) -> Option<PathBuf> {
 
 }
 
-fn itemprint(item: &Item, long: &usize) {
+fn itemprint(item: &Item) {
     match item.ford {
         Ford::File => print!("{:<}  ", item.name.red()),//,width = long),
         Ford::Dir => print!("{:<}  ", item.name.green()),//,width = long),
@@ -64,13 +78,13 @@ fn sort(content: &Vec<PathBuf>) -> Vec<Item> {
 
         match Some(path.is_dir()) {
             Some(true) => {
-                let Some(direc) = path.to_str() else { todo!()};
-                all.push(Item { ford: Ford::Dir, name: direc[2..direc.len()].to_string()});
+                let Some(direc) = path.file_name().expect("").to_str() else { todo!()};
+                all.push(Item { ford: Ford::Dir, name: direc.to_string()});
 
             },
             Some(false) => {
-                let Some(file) = path.to_str() else { todo!()};
-                all.push(Item { ford: Ford::File, name: file[2..file.len()].to_string()});
+                let Some(file) = path.file_name().expect("").to_str() else { todo!()};
+                all.push(Item { ford: Ford::File, name: file.to_string()});
 
             },
             None => todo!()
@@ -97,7 +111,7 @@ fn main() {
     println!("{} {}",width,long);
     for item in all.iter() {
         checkspace(width as usize, &item.name.len().into());
-        itemprint(item, &long);
+        itemprint(item);
     }
     print!("\n")
 }
