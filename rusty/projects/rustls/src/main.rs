@@ -33,7 +33,7 @@ fn get_contents() -> Vec<PathBuf> {
 //
 fn get_loc() -> String {
     let my_args = args().collect::<Vec<String>>();
-    println!("{:?}",my_args.len());
+    //println!("{:?}",my_args.len());
     match &my_args.len() {
         2 => {
            return my_args[1].as_str().to_owned();
