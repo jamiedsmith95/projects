@@ -8,4 +8,5 @@ edition = "2021"
 [dependencies]
 crossterm = "*"
 colored = "2"
+regex = "*"
 termion = "*"
