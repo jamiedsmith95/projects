@@ -2,6 +2,7 @@ use colored::*;
 use crossterm::cursor;
 use regex::Regex;
 use std::{
+    process::exit,
     env::{args, Args},
     fmt::{self, format},
     fs, io,
@@ -34,7 +35,9 @@ fn get_contents() -> Vec<PathBuf> {
     let pattern = format!(r"{:?}", pathb.file_name().unwrap());
     let expression = Regex::new(&pattern);
     if fs::read_dir(pathb).is_err(){
-        panic!("No results found")
+        println!("No results found");
+        exit(0)
+
     } else {
     fs::read_dir(pathb)
         .unwrap()
