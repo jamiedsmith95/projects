@@ -7,7 +7,7 @@ use std::{
     fmt::{self, format},
     fs, io,
     ops::Deref,
-    path::{Path, PathBuf},
+    path::{Path, PathBuf, self},
     usize, vec,
 };
 use termion::{cursor::DetectCursorPos, raw::IntoRawMode};
@@ -27,36 +27,49 @@ fn get_termsize() -> (u16, u16) {
     termion::terminal_size().unwrap()
 }
 
-fn get_contents() -> Vec<PathBuf> {
+fn get_contents(binding: String) -> Vec<PathBuf> {
     //get the contents of the desired directory
 
-    let binding = get_loc();
     let pathb = Path::new(&binding);
-    let pattern = format!(r"{:?}", pathb.file_name().unwrap());
-    let expression = Regex::new(&pattern);
-    if fs::read_dir(pathb).is_err(){
-        println!("No results found");
-        exit(0)
+    // println!("{:?}",&pathb.file_name());
+    let pattern = format!(r"{:?}", &pathb.file_name());
+    let mut expression = Regex::new(&pattern).unwrap();
+    // match pathb.file_name() {
+    //     Some(name) => {
+    //         expression = Regex::new(format!("{:?}{:?}",name,".*").as_str()).unwrap();
+    //     },
+    //     None => expression = Regex::new("\\s?.*").unwrap()
+    // }
 
+    // println!("{:?}", expression);
+    if fs::read_dir(pathb).is_err(){
+        // println!("No results found");
+        if pathb.to_path_buf().exists() {
+
+        let return_file = vec![pathb.to_path_buf()];
+        return return_file
+        } else {
+            return Vec::new()
+        }
     } else {
-    fs::read_dir(pathb)
+    return fs::read_dir(pathb)
         .unwrap()
         .filter_map(|e| e.ok())
-        .filter(|e| expression.as_ref().expect("reason").is_match(&e.file_name().to_str().unwrap()))
+        // .filter(|e| expression.is_match(&e.file_name().to_str().unwrap()))
         .map(|e| e.path())
         .collect::<Vec<PathBuf>>()
     }
 }
 
 // fn get_args
-fn get_loc() -> String {
+fn get_loc() -> Vec<String> {
     let my_args = args().collect::<Vec<String>>();
-    match &my_args.len() {
-        2 => {
-            return my_args[1].as_str().to_owned();
+    match my_args.to_vec().len() >= 2 {
+        true => {
+            return my_args[1..my_args.len()].to_vec();
             // return lastarg
         } // return current dir
-        _ => return "./".to_string(),
+        false => return vec!["./".to_owned()],
     }
 }
 
@@ -133,19 +146,38 @@ fn checkspace(item: &Item, long: usize) {
 }
 
 fn main() {
-    let content = get_contents();
-    let binding = get_long(&content).unwrap();
-    let longest = binding.to_str().expect("Could not find longest");
-    let long = match longest.len() > 20 {
-        true => 20,
-        false => longest.len(),
-    };
-    let all = sort(&content);
-    for item in all.iter() {
-        checkspace(item, long);
-        // itemprint(item,long);
+    let locations = get_loc();
+    let mut content = vec![];
+    for loc in locations {
+        content.append(&mut get_contents(loc))
     }
-    print!("\n")
+    // println!("{}",&content.len());
+    if let Some(binding) = get_long(&content) {
+        let longest = binding.to_str().unwrap();
+        let long = match longest.len() > 20 {
+            true => 20,
+            false => longest.len(),
+        };
+        let all = sort(&content);
+        for item in all.iter() {
+            checkspace(item, long);
+            // itemprint(item,long);
+        }
+        print!("\n")
+    } else {
+        let longest = "a".repeat(20);
+        let long = match longest.len() > 20 {
+            true => 20,
+            false => longest.len(),
+        };
+        let all = sort(&content);
+        for item in all.iter() {
+            checkspace(item, long);
+            // itemprint(item,long);
+        }
+        print!("\n")
+
+    }
 }
 
 // true => {
