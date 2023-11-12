@@ -1,0 +1,2327 @@
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: no active client
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: insert enter
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: no active client
+󰘫  |1: Insert leave cleanup |2: i
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: no active client
+󰘫  |1: Insert leave cleanup |2: i
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: no active client
+󰘫  |1: Insert leave cleanup |2: i
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:813: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:837: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:813: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:837: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: insert enter
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: changed
+󰘫  |1: no active client
+󰘫  |1: no active client
+󰘫  |1: Insert leave cleanup |2: i
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:813: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:837: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:813: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:837: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: no active client
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: no active client
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: no active client
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: delta |2:  |3: 
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: insert enter
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: f
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 1
+󰘫  |1: delta |2: f |3: f |4:  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: fu
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: delta |2: fu |3: fu |4: f |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func 
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 5
+󰘫  |1: delta |2: unc  |3: func  |4: fu |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func m
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 6
+󰘫  |1: delta |2:  m |3: func m |4: func  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func ma
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 7
+󰘫  |1: delta |2: ma |3: func ma |4: func m |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func mai
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 8
+󰘫  |1: delta |2: ai |3: func mai |4: func ma |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func main
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 9
+󰘫  |1: delta |2: in |3: func main |4: func mai |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: delta |2: unc main |3:    |4: func main |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: delta |2:    |3:    |4:    |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: i
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   f
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 3
+󰘫  |1: delta |2:  f |3:   f |4:    |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fm
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 4
+󰘫  |1: delta |2: fm |3:   fm |4:   f |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 5
+󰘫  |1: delta |2: mt |3:   fmt |4:   fm |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 6
+󰘫  |1: delta |2: t. |3:   fmt. |4:   fmt |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.print
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 11
+󰘫  |1: delta |2: .print |3:   fmt.print |4:   fmt. |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.printl
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 12
+󰘫  |1: delta |2: tl |3:   fmt.printl |4:   fmt.print |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.println
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 13
+󰘫  |1: delta |2: ln |3:   fmt.println |4:   fmt.printl |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.printl
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 12
+󰘫  |1: delta |2: ln |3:   fmt.printl |4:   fmt.println |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.print
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 11
+󰘫  |1: delta |2: tl |3:   fmt.print |4:   fmt.printl |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.printi
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 12
+󰘫  |1: delta |2: ti |3:   fmt.printi |4:   fmt.print |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.print
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 11
+󰘫  |1: delta |2: ti |3:   fmt.print |4:   fmt.printi |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.prin
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 10
+󰘫  |1: delta |2: nt |3:   fmt.prin |4:   fmt.print |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.prini
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 11
+󰘫  |1: delta |2: ni |3:   fmt.prini |4:   fmt.prin |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.prin
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 10
+󰘫  |1: delta |2: ni |3:   fmt.prin |4:   fmt.prini |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.pri
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 9
+󰘫  |1: delta |2: in |3:   fmt.pri |4:   fmt.prin |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.pr
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 8
+󰘫  |1: delta |2: ri |3:   fmt.pr |4:   fmt.pri |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.p
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 7
+󰘫  |1: delta |2: pr |3:   fmt.p |4:   fmt.pr |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 6
+󰘫  |1: delta |2: .p |3:   fmt. |4:   fmt.p |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.P
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 7
+󰘫  |1: delta |2: .P |3:   fmt.P |4:   fmt. |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Pr
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 8
+󰘫  |1: delta |2: Pr |3:   fmt.Pr |4:   fmt.P |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Pri
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 9
+󰘫  |1: delta |2: ri |3:   fmt.Pri |4:   fmt.Pr |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Prin
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 10
+󰘫  |1: delta |2: in |3:   fmt.Prin |4:   fmt.Pri |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Print
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 11
+󰘫  |1: delta |2: nt |3:   fmt.Print |4:   fmt.Prin |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Prin
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 10
+󰘫  |1: delta |2: nt |3:   fmt.Prin |4:   fmt.Print |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Print
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 11
+󰘫  |1: delta |2: nt |3:   fmt.Print |4:   fmt.Prin |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Printl
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 12
+󰘫  |1: delta |2: tl |3:   fmt.Printl |4:   fmt.Print |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 13
+󰘫  |1: delta |2: ln |3:   fmt.Println |4:   fmt.Printl |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println(
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: n( |3:   fmt.Println( |4:   fmt.Println |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: sig result |2: {
+  bufnr = 1,
+  client_id = 1,
+  method = "textDocument/signatureHelp",
+  params = {
+    position = {
+      character = 14,
+      line = 5
+    },
+    textDocument = {
+      uri = "file:///home/jsmith49/projects/go/tutorial.go"
+    }
+  }
+}
+ |3: {
+  cfgActiveSignature = 0,
+  signatures = { {
+      documentation = {
+        kind = "markdown",
+        value = "Println formats using the default formats for its operands and writes to standard output. Spaces are always added between operands and a newline is appended. It returns the number of bytes written and any write error encountered."
+      },
+      label = "Println(a ...any) (n int, err error)",
+      parameters = { {
+          label = "a ...any"
+        } }
+    } }
+}
+ |4: {
+  border = "rounded",
+  check_completion_visible = true,
+  line_to_cursor = "  fmt.Println(",
+  trigger_from_lsp_sig = true,
+  triggered_chars = { "(", "," }
+}
+
+󰘫  |1: sig actPar
+󰘫  |1: incorrect signature response? |2: {
+  cfgActiveSignature = 0,
+  signatures = { {
+      documentation = {
+        kind = "markdown",
+        value = "Println formats using the default formats for its operands and writes to standard output. Spaces are always added between operands and a newline is appended. It returns the number of bytes written and any write error encountered."
+      },
+      label = "Println(a ...any) (n int, err error)",
+      parameters = { {
+          label = "a ...any"
+        } }
+    } }
+}
+ |3: {
+  border = "rounded",
+  check_completion_visible = true,
+  line_to_cursor = "  fmt.Println(",
+  trigger_from_lsp_sig = true,
+  triggered_chars = { "(", "," }
+}
+
+󰘫  |1: nextpara: |2: {
+  label = "a ...any"
+}
+
+󰘫  |1: func |2: Println(a ...any) (n int, err error) |3: {
+  label = "a ...any"
+}
+
+󰘫  |1: virtual text only : |2: func main()  { |3:    |4: { 6, 14 }
+ |5: 6 |6:   
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: virtual text:  |2: 5 |3: 6 |4: { "              a ...any", "Comment" }
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: (" |3:   fmt.Println(" |4:   fmt.Println( |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("H
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: "H |3:   fmt.Println("H |4:   fmt.Println(" |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("He
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: He |3:   fmt.Println("He |4:   fmt.Println("H |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Hel
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: el |3:   fmt.Println("Hel |4:   fmt.Println("He |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Hell
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: ll |3:   fmt.Println("Hell |4:   fmt.Println("Hel |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Hello
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: lo |3:   fmt.Println("Hello |4:   fmt.Println("Hell |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Hello 
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: o  |3:   fmt.Println("Hello  |4:   fmt.Println("Hello |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Hello w
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2:  w |3:   fmt.Println("Hello w |4:   fmt.Println("Hello  |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Hello wo
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: wo |3:   fmt.Println("Hello wo |4:   fmt.Println("Hello w |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Hello wor
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: or |3:   fmt.Println("Hello wor |4:   fmt.Println("Hello wo |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Hello worn
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: rn |3:   fmt.Println("Hello worn |4:   fmt.Println("Hello wor |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Hello wornd
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: nd |3:   fmt.Println("Hello wornd |4:   fmt.Println("Hello worn |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Hello worn
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: nd |3:   fmt.Println("Hello worn |4:   fmt.Println("Hello wornd |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Hello wor
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: rn |3:   fmt.Println("Hello wor |4:   fmt.Println("Hello worn |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Hello worl
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: rl |3:   fmt.Println("Hello worl |4:   fmt.Println("Hello wor |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Hello world
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: ld |3:   fmt.Println("Hello world |4:   fmt.Println("Hello worl |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Hello world!
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: d! |3:   fmt.Println("Hello world! |4:   fmt.Println("Hello world |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:813: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:837: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:813: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:837: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Hello world
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2:   fmt.Println("Hello world |3:   fmt.Println("Hello world |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Hello world
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2:   fmt.Println("Hello world |3:   fmt.Println("Hello world |4:   fmt.Println("Hello world |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: delta |2:  |3: 
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: insert enter
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: delta |2:    |3:    |4:  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   f
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 3
+󰘫  |1: delta |2:  f |3:   f |4:    |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fm
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 4
+󰘫  |1: delta |2: fm |3:   fm |4:   f |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 5
+󰘫  |1: delta |2: mt |3:   fmt |4:   fm |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 6
+󰘫  |1: delta |2: t. |3:   fmt. |4:   fmt |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.P
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 7
+󰘫  |1: delta |2: .P |3:   fmt.P |4:   fmt. |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Pr
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 8
+󰘫  |1: delta |2: Pr |3:   fmt.Pr |4:   fmt.P |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Pri
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 9
+󰘫  |1: delta |2: ri |3:   fmt.Pri |4:   fmt.Pr |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Prin
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 10
+󰘫  |1: delta |2: in |3:   fmt.Prin |4:   fmt.Pri |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Print
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 11
+󰘫  |1: delta |2: nt |3:   fmt.Print |4:   fmt.Prin |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Printl
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 12
+󰘫  |1: delta |2: tl |3:   fmt.Printl |4:   fmt.Print |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 13
+󰘫  |1: delta |2: ln |3:   fmt.Println |4:   fmt.Printl |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println(
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: n( |3:   fmt.Println( |4:   fmt.Println |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: sig result |2: {
+  bufnr = 1,
+  client_id = 1,
+  method = "textDocument/signatureHelp",
+  params = {
+    position = {
+      character = 14,
+      line = 5
+    },
+    textDocument = {
+      uri = "file:///home/jsmith49/projects/go/tutorial.go"
+    }
+  }
+}
+ |3: {
+  cfgActiveSignature = 0,
+  signatures = { {
+      documentation = {
+        kind = "markdown",
+        value = "Println formats using the default formats for its operands and writes to standard output. Spaces are always added between operands and a newline is appended. It returns the number of bytes written and any write error encountered."
+      },
+      label = "Println(a ...any) (n int, err error)",
+      parameters = { {
+          label = "a ...any"
+        } }
+    } }
+}
+ |4: {
+  border = "rounded",
+  check_completion_visible = true,
+  line_to_cursor = "  fmt.Println(",
+  trigger_from_lsp_sig = true,
+  triggered_chars = { "(", "," }
+}
+
+󰘫  |1: sig actPar
+󰘫  |1: incorrect signature response? |2: {
+  cfgActiveSignature = 0,
+  signatures = { {
+      documentation = {
+        kind = "markdown",
+        value = "Println formats using the default formats for its operands and writes to standard output. Spaces are always added between operands and a newline is appended. It returns the number of bytes written and any write error encountered."
+      },
+      label = "Println(a ...any) (n int, err error)",
+      parameters = { {
+          label = "a ...any"
+        } }
+    } }
+}
+ |3: {
+  border = "rounded",
+  check_completion_visible = true,
+  line_to_cursor = "  fmt.Println(",
+  trigger_from_lsp_sig = true,
+  triggered_chars = { "(", "," }
+}
+
+󰘫  |1: nextpara: |2: {
+  label = "a ...any"
+}
+
+󰘫  |1: func |2: Println(a ...any) (n int, err error) |3: {
+  label = "a ...any"
+}
+
+󰘫  |1: virtual text only : |2: func main()  { |3:    |4: { 6, 14 }
+ |5: 6 |6:   
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: virtual text:  |2: 5 |3: 6 |4: { "              a ...any", "Comment" }
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: (" |3:   fmt.Println(" |4:   fmt.Println( |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("W
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: "W |3:   fmt.Println("W |4:   fmt.Println(" |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("We
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: We |3:   fmt.Println("We |4:   fmt.Println("W |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Wen
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: en |3:   fmt.Println("Wen |4:   fmt.Println("We |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Wenc
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: nc |3:   fmt.Println("Wenc |4:   fmt.Println("Wen |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Wenco
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: co |3:   fmt.Println("Wenco |4:   fmt.Println("Wenc |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Wenc
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: co |3:   fmt.Println("Wenc |4:   fmt.Println("Wenco |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Wen
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: nc |3:   fmt.Println("Wen |4:   fmt.Println("Wenc |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("We
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: en |3:   fmt.Println("We |4:   fmt.Println("Wen |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Wel
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: el |3:   fmt.Println("Wel |4:   fmt.Println("We |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Welc
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: lc |3:   fmt.Println("Welc |4:   fmt.Println("Wel |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Welco
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: co |3:   fmt.Println("Welco |4:   fmt.Println("Welc |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Welcom
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: om |3:   fmt.Println("Welcom |4:   fmt.Println("Welco |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Welcome
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: me |3:   fmt.Println("Welcome |4:   fmt.Println("Welcom |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Welcome 
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: e  |3:   fmt.Println("Welcome  |4:   fmt.Println("Welcome |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Welcome t
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2:  t |3:   fmt.Println("Welcome t |4:   fmt.Println("Welcome  |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Welcome to
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: to |3:   fmt.Println("Welcome to |4:   fmt.Println("Welcome t |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Welcome to 
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: o  |3:   fmt.Println("Welcome to  |4:   fmt.Println("Welcome to |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Welcome to m
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2:  m |3:   fmt.Println("Welcome to m |4:   fmt.Println("Welcome to  |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Welcome to my
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: my |3:   fmt.Println("Welcome to my |4:   fmt.Println("Welcome to m |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Welcome to my 
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: y  |3:   fmt.Println("Welcome to my  |4:   fmt.Println("Welcome to my |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Welcome to my qu
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2:  qu |3:   fmt.Println("Welcome to my qu |4:   fmt.Println("Welcome to my  |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Welcome to my qui
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: ui |3:   fmt.Println("Welcome to my qui |4:   fmt.Println("Welcome to my qu |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Welcome to my qui,
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: ,
+󰘫  |1: lsp cap:  |2: true |3: true |4: 33
+󰘫  |1: delta |2: i, |3:   fmt.Println("Welcome to my qui, |4:   fmt.Println("Welcome to my qui |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Welcome to my qui,a
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: ,
+󰘫  |1: lsp cap:  |2: true |3: true |4: 33
+󰘫  |1: delta |2: ,a |3:   fmt.Println("Welcome to my qui,a |4:   fmt.Println("Welcome to my qui, |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Welcome to my qui,
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: ,
+󰘫  |1: lsp cap:  |2: true |3: true |4: 33
+󰘫  |1: delta |2: ,a |3:   fmt.Println("Welcome to my qui, |4:   fmt.Println("Welcome to my qui,a |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Welcome to my qui
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: i, |3:   fmt.Println("Welcome to my qui |4:   fmt.Println("Welcome to my qui, |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Welcome to my quiz
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: iz |3:   fmt.Println("Welcome to my quiz |4:   fmt.Println("Welcome to my qui |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Welcome to my quiz 
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: z  |3:   fmt.Println("Welcome to my quiz  |4:   fmt.Println("Welcome to my quiz |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Welcome to my quiz g
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2:  g |3:   fmt.Println("Welcome to my quiz g |4:   fmt.Println("Welcome to my quiz  |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Welcome to my quiz ga
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: ga |3:   fmt.Println("Welcome to my quiz ga |4:   fmt.Println("Welcome to my quiz g |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Welcome to my quiz gam
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: am |3:   fmt.Println("Welcome to my quiz gam |4:   fmt.Println("Welcome to my quiz ga |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Welcome to my quiz game
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: me |3:   fmt.Println("Welcome to my quiz game |4:   fmt.Println("Welcome to my quiz gam |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   fmt.Println("Welcome to my quiz game!
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 14
+󰘫  |1: delta |2: e! |3:   fmt.Println("Welcome to my quiz game! |4:   fmt.Println("Welcome to my quiz game |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: delta |2:  fmt.Println("Welcome to my quiz game! |3:    |4:   fmt.Println("Welcome to my quiz game! |5: {}
+
+󰘫  |1: completedone  |2: i |3: enable signature ?
+󰘫  |1: Insert leave cleanup |2: i
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: delta |2:    |3:    |4:    |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: i
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:813: in function 'on_InsertLeave'
+	[string ":lua"]:1: in main chunk
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:813: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:837: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: insert enter
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: delta |2:    |3:    |4:  |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: delta |2:    |3:    |4:    |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: i
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   :
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 3
+󰘫  |1: delta |2:  : |3:   : |4:    |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   :q
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 4
+󰘫  |1: delta |2: :q |3:   :q |4:   : |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: delta |2:  :q |3:    |4:   :q |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   :
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 3
+󰘫  |1: delta |2:  : |3:   : |4:    |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: delta |2:  : |3:    |4:   : |5: {}
+
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:813: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:837: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:813: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:837: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
