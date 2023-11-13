@@ -1,0 +1,3831 @@
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: insert enter
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: p
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 1
+󰘫  |1: delta |2: p |3: p |4:  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: pa
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: delta |2: pa |3: pa |4: p |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: pacn
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 4
+󰘫  |1: delta |2: acn |3: pacn |4: pa |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: package handlers
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 16
+󰘫  |1: delta |2: kage handlers |3: package handlers |4: pacn |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: delta |2: package handlers |3:  |4: package handlers |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: i
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 1
+󰘫  |1: delta |2: i |3: i |4:  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: im
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: delta |2: im |3: im |4: i |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: imp
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 3
+󰘫  |1: delta |2: mp |3: imp |4: im |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: impl
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 4
+󰘫  |1: delta |2: pl |3: impl |4: imp |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: imp
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 3
+󰘫  |1: delta |2: pl |3: imp |4: impl |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: impo
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 4
+󰘫  |1: delta |2: po |3: impo |4: imp |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: impor
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 5
+󰘫  |1: delta |2: or |3: impor |4: impo |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: import
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 6
+󰘫  |1: delta |2: rt |3: import |4: impor |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: import 
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 7
+󰘫  |1: delta |2: t  |3: import  |4: import |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: import "
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 8
+󰘫  |1: delta |2:  " |3: import " |4: import  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: import "l
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 9
+󰘫  |1: delta |2: "l |3: import "l |4: import " |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: import "lo
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 10
+󰘫  |1: delta |2: lo |3: import "lo |4: import "l |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: import "log
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 11
+󰘫  |1: delta |2: og |3: import "log |4: import "lo |5: {}
+
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:813: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:837: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:813: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:837: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:813: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:837: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: insert enter
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: t
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 1
+󰘫  |1: delta |2: t |3: t |4:  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: ty
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: delta |2: ty |3: ty |4: t |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: typ
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 3
+󰘫  |1: delta |2: yp |3: typ |4: ty |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: type
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 4
+󰘫  |1: delta |2: pe |3: type |4: typ |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: type 
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 5
+󰘫  |1: delta |2: e  |3: type  |4: type |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: type Good
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 9
+󰘫  |1: delta |2:  Good |3: type Good |4: type  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: type Goodb
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 10
+󰘫  |1: delta |2: db |3: type Goodb |4: type Good |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: type Goodby
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 11
+󰘫  |1: delta |2: by |3: type Goodby |4: type Goodb |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: type Goodbye
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 12
+󰘫  |1: delta |2: ye |3: type Goodbye |4: type Goodby |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: type Goodbye 
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 13
+󰘫  |1: delta |2: e  |3: type Goodbye  |4: type Goodbye |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: type Goodbye s
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 14
+󰘫  |1: delta |2:  s |3: type Goodbye s |4: type Goodbye  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: type Goodbye st
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 15
+󰘫  |1: delta |2: st |3: type Goodbye st |4: type Goodbye s |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: type Goodbye str
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 16
+󰘫  |1: delta |2: tr |3: type Goodbye str |4: type Goodbye st |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: type Goodbye stru
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 17
+󰘫  |1: delta |2: ru |3: type Goodbye stru |4: type Goodbye str |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: type Goodbye struc
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 18
+󰘫  |1: delta |2: uc |3: type Goodbye struc |4: type Goodbye stru |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: type Goodbye struct
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 19
+󰘫  |1: delta |2: ct |3: type Goodbye struct |4: type Goodbye struc |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: type Goodbye struct 
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 20
+󰘫  |1: delta |2: t  |3: type Goodbye struct  |4: type Goodbye struct |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: type Goodbye struct {
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 21
+󰘫  |1: delta |2:  { |3: type Goodbye struct { |4: type Goodbye struct  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: delta |2: ype Goodbye struct { |3:    |4: type Goodbye struct { |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   l
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 3
+󰘫  |1: delta |2:  l |3:   l |4:    |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   l 
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 4
+󰘫  |1: delta |2: l  |3:   l  |4:   l |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   l *
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 5
+󰘫  |1: delta |2:  * |3:   l * |4:   l  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   l *l
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 6
+󰘫  |1: delta |2: *l |3:   l *l |4:   l * |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   l *lo
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 7
+󰘫  |1: delta |2: lo |3:   l *lo |4:   l *l |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   l *log
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 8
+󰘫  |1: delta |2: og |3:   l *log |4:   l *lo |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   l *log.
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 9
+󰘫  |1: delta |2: g. |3:   l *log. |4:   l *log |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   l *log.l
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 10
+󰘫  |1: delta |2: .l |3:   l *log.l |4:   l *log. |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   l *log.lo
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 11
+󰘫  |1: delta |2: lo |3:   l *log.lo |4:   l *log.l |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   l *log.log
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 12
+󰘫  |1: delta |2: og |3:   l *log.log |4:   l *log.lo |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   l *log.logg
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 13
+󰘫  |1: delta |2: gg |3:   l *log.logg |4:   l *log.log |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   l *log.log
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 12
+󰘫  |1: delta |2: gg |3:   l *log.log |4:   l *log.logg |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   l *log.lo
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 11
+󰘫  |1: delta |2: og |3:   l *log.lo |4:   l *log.log |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   l *log.l
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 10
+󰘫  |1: delta |2: lo |3:   l *log.l |4:   l *log.lo |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   l *log.
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 9
+󰘫  |1: delta |2: .l |3:   l *log. |4:   l *log.l |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   l *log.L
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 10
+󰘫  |1: delta |2: .L |3:   l *log.L |4:   l *log. |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   l *log.Lo
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 11
+󰘫  |1: delta |2: Lo |3:   l *log.Lo |4:   l *log.L |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   l *log.Log
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 12
+󰘫  |1: delta |2: og |3:   l *log.Log |4:   l *log.Lo |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   l *log.Logg
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 13
+󰘫  |1: delta |2: gg |3:   l *log.Logg |4:   l *log.Log |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   l *log.Logge
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 14
+󰘫  |1: delta |2: ge |3:   l *log.Logge |4:   l *log.Logg |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   l *log.Logger
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 15
+󰘫  |1: delta |2: er |3:   l *log.Logger |4:   l *log.Logge |5: {}
+
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:813: in function 'on_InsertLeave'
+	[string ":lua"]:1: in main chunk
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:813: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:837: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: insert enter
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: o
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 1
+󰘫  |1: delta |2: o |3: o |4:  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: delta |2: o |3:  |4: o |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:813: in function 'on_InsertLeave'
+	[string ":lua"]:1: in main chunk
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:813: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:837: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: insert enter
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: f
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 1
+󰘫  |1: delta |2: f |3: f |4:  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: fu
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: delta |2: fu |3: fu |4: f |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: fun
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 3
+󰘫  |1: delta |2: un |3: fun |4: fu |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 4
+󰘫  |1: delta |2: nc |3: func |4: fun |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func 
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 5
+󰘫  |1: delta |2: c  |3: func  |4: func |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func N
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 6
+󰘫  |1: delta |2:  N |3: func N |4: func  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func Ne
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 7
+󰘫  |1: delta |2: Ne |3: func Ne |4: func N |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func Nea
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 8
+󰘫  |1: delta |2: ea |3: func Nea |4: func Ne |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func Ne
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 7
+󰘫  |1: delta |2: ea |3: func Ne |4: func Nea |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func New
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 8
+󰘫  |1: delta |2: ew |3: func New |4: func Ne |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewG
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 9
+󰘫  |1: delta |2: wG |3: func NewG |4: func New |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGO
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 10
+󰘫  |1: delta |2: GO |3: func NewGO |4: func NewG |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewG
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 9
+󰘫  |1: delta |2: GO |3: func NewG |4: func NewGO |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGo
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 10
+󰘫  |1: delta |2: Go |3: func NewGo |4: func NewG |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGoo
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 11
+󰘫  |1: delta |2: oo |3: func NewGoo |4: func NewGo |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGood
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 12
+󰘫  |1: delta |2: od |3: func NewGood |4: func NewGoo |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGoodb
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 13
+󰘫  |1: delta |2: db |3: func NewGoodb |4: func NewGood |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGoodby
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 14
+󰘫  |1: delta |2: by |3: func NewGoodby |4: func NewGoodb |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGoodbye
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 15
+󰘫  |1: delta |2: ye |3: func NewGoodbye |4: func NewGoodby |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGoodbye(
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 16
+󰘫  |1: delta |2: e( |3: func NewGoodbye( |4: func NewGoodbye |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGoodbye(l
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 16
+󰘫  |1: delta |2: (l |3: func NewGoodbye(l |4: func NewGoodbye( |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGoodbye(l 
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 16
+󰘫  |1: delta |2: l  |3: func NewGoodbye(l  |4: func NewGoodbye(l |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGoodbye(l *
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 16
+󰘫  |1: delta |2:  * |3: func NewGoodbye(l * |4: func NewGoodbye(l  |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGoodbye(l *l
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 16
+󰘫  |1: delta |2: *l |3: func NewGoodbye(l *l |4: func NewGoodbye(l * |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGoodbye(l *lo
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 16
+󰘫  |1: delta |2: lo |3: func NewGoodbye(l *lo |4: func NewGoodbye(l *l |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGoodbye(l *log
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 16
+󰘫  |1: delta |2: og |3: func NewGoodbye(l *log |4: func NewGoodbye(l *lo |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGoodbye(l *log.
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 16
+󰘫  |1: delta |2: g. |3: func NewGoodbye(l *log. |4: func NewGoodbye(l *log |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGoodbye(l *log.L
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 16
+󰘫  |1: delta |2: .L |3: func NewGoodbye(l *log.L |4: func NewGoodbye(l *log. |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGoodbye(l *log.Lo
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 16
+󰘫  |1: delta |2: Lo |3: func NewGoodbye(l *log.Lo |4: func NewGoodbye(l *log.L |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGoodbye(l *log.Log
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 16
+󰘫  |1: delta |2: og |3: func NewGoodbye(l *log.Log |4: func NewGoodbye(l *log.Lo |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGoodbye(l *log.Logg
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 16
+󰘫  |1: delta |2: gg |3: func NewGoodbye(l *log.Logg |4: func NewGoodbye(l *log.Log |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGoodbye(l *log.Logge
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 16
+󰘫  |1: delta |2: ge |3: func NewGoodbye(l *log.Logge |4: func NewGoodbye(l *log.Logg |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGoodbye(l *log.Logger
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 16
+󰘫  |1: delta |2: er |3: func NewGoodbye(l *log.Logger |4: func NewGoodbye(l *log.Logge |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGoodbye(l *log.Logger) 
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 31
+󰘫  |1: delta |2: r)  |3: func NewGoodbye(l *log.Logger)  |4: func NewGoodbye(l *log.Logger |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGoodbye(l *log.Logger) *
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 32
+󰘫  |1: delta |2:  * |3: func NewGoodbye(l *log.Logger) * |4: func NewGoodbye(l *log.Logger)  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGoodbye(l *log.Logger) *Good
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 36
+󰘫  |1: delta |2: *Good |3: func NewGoodbye(l *log.Logger) *Good |4: func NewGoodbye(l *log.Logger) * |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGoodbye(l *log.Logger) *Goodb
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 37
+󰘫  |1: delta |2: db |3: func NewGoodbye(l *log.Logger) *Goodb |4: func NewGoodbye(l *log.Logger) *Good |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGoodbye(l *log.Logger) *Goodby
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 38
+󰘫  |1: delta |2: by |3: func NewGoodbye(l *log.Logger) *Goodby |4: func NewGoodbye(l *log.Logger) *Goodb |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGoodbye(l *log.Logger) *Goodbye
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 39
+󰘫  |1: delta |2: ye |3: func NewGoodbye(l *log.Logger) *Goodbye |4: func NewGoodbye(l *log.Logger) *Goodby |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGoodbye(l *log.Logger) *Goodbye 
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 40
+󰘫  |1: delta |2: e  |3: func NewGoodbye(l *log.Logger) *Goodbye  |4: func NewGoodbye(l *log.Logger) *Goodbye |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func NewGoodbye(l *log.Logger) *Goodbye {
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 41
+󰘫  |1: delta |2:  { |3: func NewGoodbye(l *log.Logger) *Goodbye { |4: func NewGoodbye(l *log.Logger) *Goodbye  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: delta |2: unc NewGoodbye(l *log.Logger) *Goodbye { |3:    |4: func NewGoodbye(l *log.Logger) *Goodbye { |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   r
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 3
+󰘫  |1: delta |2:  r |3:   r |4:    |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   re
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 4
+󰘫  |1: delta |2: re |3:   re |4:   r |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   ret
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 5
+󰘫  |1: delta |2: et |3:   ret |4:   re |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   reti
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 6
+󰘫  |1: delta |2: ti |3:   reti |4:   ret |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   retir
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 7
+󰘫  |1: delta |2: ir |3:   retir |4:   reti |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   retirn
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 8
+󰘫  |1: delta |2: rn |3:   retirn |4:   retir |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   retir
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 7
+󰘫  |1: delta |2: rn |3:   retir |4:   retirn |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   reti
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 6
+󰘫  |1: delta |2: ir |3:   reti |4:   retir |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   ret
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 5
+󰘫  |1: delta |2: ti |3:   ret |4:   reti |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   re
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 4
+󰘫  |1: delta |2: et |3:   re |4:   ret |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   ret
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 5
+󰘫  |1: delta |2: et |3:   ret |4:   re |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   retu
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 6
+󰘫  |1: delta |2: tu |3:   retu |4:   ret |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   retur
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 7
+󰘫  |1: delta |2: ur |3:   retur |4:   retu |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   return
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 8
+󰘫  |1: delta |2: rn |3:   return |4:   retur |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   return 
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 9
+󰘫  |1: delta |2: n  |3:   return  |4:   return |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   return &
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 10
+󰘫  |1: delta |2:  & |3:   return & |4:   return  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   return &Good
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 14
+󰘫  |1: delta |2: &Good |3:   return &Good |4:   return & |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   return &Goodb
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 15
+󰘫  |1: delta |2: db |3:   return &Goodb |4:   return &Good |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   return &Goodby
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 16
+󰘫  |1: delta |2: by |3:   return &Goodby |4:   return &Goodb |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   return &Goodbye
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 17
+󰘫  |1: delta |2: ye |3:   return &Goodbye |4:   return &Goodby |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   return &Goodbye{
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 18
+󰘫  |1: delta |2: e{ |3:   return &Goodbye{ |4:   return &Goodbye |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   return &Goodbye{l
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 19
+󰘫  |1: delta |2: {l |3:   return &Goodbye{l |4:   return &Goodbye{ |5: {}
+
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:813: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:837: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:813: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:837: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   return &Goodbye{
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 18
+󰘫  |1: delta |2:   return &Goodbye{ |3:   return &Goodbye{ |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: insert enter
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: f
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 1
+󰘫  |1: delta |2: f |3: f |4:  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: fu
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: delta |2: fu |3: fu |4: f |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: fun
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 3
+󰘫  |1: delta |2: un |3: fun |4: fu |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 4
+󰘫  |1: delta |2: nc |3: func |4: fun |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func 
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 5
+󰘫  |1: delta |2: c  |3: func  |4: func |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 6
+󰘫  |1: delta |2:  ( |3: func ( |4: func  |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 6
+󰘫  |1: delta |2: (g |3: func (g |4: func ( |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 6
+󰘫  |1: delta |2: g* |3: func (g* |4: func (g |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*G
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 6
+󰘫  |1: delta |2: *G |3: func (g*G |4: func (g* |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Good
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 6
+󰘫  |1: delta |2: Good |3: func (g*Good |4: func (g*G |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodb
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 6
+󰘫  |1: delta |2: db |3: func (g*Goodb |4: func (g*Good |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodby
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 6
+󰘫  |1: delta |2: by |3: func (g*Goodby |4: func (g*Goodb |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 6
+󰘫  |1: delta |2: ye |3: func (g*Goodbye |4: func (g*Goodby |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 6
+󰘫  |1: delta |2: func (g*Goodbye |3: func (g*Goodbye |4: func (g*Goodbye |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: i
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) 
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 17
+󰘫  |1: delta |2: e)  |3: func (g*Goodbye)  |4: func (g*Goodbye |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) S
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 18
+󰘫  |1: delta |2:  S |3: func (g*Goodbye) S |4: func (g*Goodbye)  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) Se
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 19
+󰘫  |1: delta |2: Se |3: func (g*Goodbye) Se |4: func (g*Goodbye) S |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) Ser
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 20
+󰘫  |1: delta |2: er |3: func (g*Goodbye) Ser |4: func (g*Goodbye) Se |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) Serv
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 21
+󰘫  |1: delta |2: rv |3: func (g*Goodbye) Serv |4: func (g*Goodbye) Ser |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) Serve
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 22
+󰘫  |1: delta |2: ve |3: func (g*Goodbye) Serve |4: func (g*Goodbye) Serv |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeH
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 23
+󰘫  |1: delta |2: eH |3: func (g*Goodbye) ServeH |4: func (g*Goodbye) Serve |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHT
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 24
+󰘫  |1: delta |2: HT |3: func (g*Goodbye) ServeHT |4: func (g*Goodbye) ServeH |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTT
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 25
+󰘫  |1: delta |2: TT |3: func (g*Goodbye) ServeHTT |4: func (g*Goodbye) ServeHT |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 26
+󰘫  |1: delta |2: TP |3: func (g*Goodbye) ServeHTTP |4: func (g*Goodbye) ServeHTT |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 27
+󰘫  |1: delta |2: P( |3: func (g*Goodbye) ServeHTTP( |4: func (g*Goodbye) ServeHTTP |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(r
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 27
+󰘫  |1: delta |2: (r |3: func (g*Goodbye) ServeHTTP(r |4: func (g*Goodbye) ServeHTTP( |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 27
+󰘫  |1: delta |2: rw |3: func (g*Goodbye) ServeHTTP(rw |4: func (g*Goodbye) ServeHTTP(r |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw 
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 27
+󰘫  |1: delta |2: w  |3: func (g*Goodbye) ServeHTTP(rw  |4: func (g*Goodbye) ServeHTTP(rw |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw h
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 27
+󰘫  |1: delta |2:  h |3: func (g*Goodbye) ServeHTTP(rw h |4: func (g*Goodbye) ServeHTTP(rw  |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw ht
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 27
+󰘫  |1: delta |2: ht |3: func (g*Goodbye) ServeHTTP(rw ht |4: func (g*Goodbye) ServeHTTP(rw h |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw htt
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 27
+󰘫  |1: delta |2: tt |3: func (g*Goodbye) ServeHTTP(rw htt |4: func (g*Goodbye) ServeHTTP(rw ht |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw http
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 27
+󰘫  |1: delta |2: tp |3: func (g*Goodbye) ServeHTTP(rw http |4: func (g*Goodbye) ServeHTTP(rw htt |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw http.
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 27
+󰘫  |1: delta |2: p. |3: func (g*Goodbye) ServeHTTP(rw http. |4: func (g*Goodbye) ServeHTTP(rw http |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw http.
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 27
+󰘫  |1: delta |2: func (g*Goodbye) ServeHTTP(rw http. |3: func (g*Goodbye) ServeHTTP(rw http. |4: func (g*Goodbye) ServeHTTP(rw http. |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: i
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw http.R
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 27
+󰘫  |1: delta |2: .R |3: func (g*Goodbye) ServeHTTP(rw http.R |4: func (g*Goodbye) ServeHTTP(rw http. |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw http.Re
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 27
+󰘫  |1: delta |2: Re |3: func (g*Goodbye) ServeHTTP(rw http.Re |4: func (g*Goodbye) ServeHTTP(rw http.R |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw http.Res
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 27
+󰘫  |1: delta |2: es |3: func (g*Goodbye) ServeHTTP(rw http.Res |4: func (g*Goodbye) ServeHTTP(rw http.Re |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 27
+󰘫  |1: delta |2: sponseWriter |3: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter |4: func (g*Goodbye) ServeHTTP(rw http.Res |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter,
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: ,
+󰘫  |1: lsp cap:  |2: true |3: true |4: 50
+󰘫  |1: delta |2: r, |3: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, |4: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, 
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: ,
+󰘫  |1: lsp cap:  |2: true |3: true |4: 50
+󰘫  |1: delta |2: ,  |3: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter,  |4: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: ,
+󰘫  |1: lsp cap:  |2: true |3: true |4: 50
+󰘫  |1: delta |2:  r |3: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r |4: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter,  |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r 
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: ,
+󰘫  |1: lsp cap:  |2: true |3: true |4: 50
+󰘫  |1: delta |2: r  |3: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r  |4: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: ,
+󰘫  |1: lsp cap:  |2: true |3: true |4: 50
+󰘫  |1: delta |2:  * |3: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r * |4: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r  |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *h
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: ,
+󰘫  |1: lsp cap:  |2: true |3: true |4: 50
+󰘫  |1: delta |2: *h |3: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *h |4: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r * |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *ht
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: ,
+󰘫  |1: lsp cap:  |2: true |3: true |4: 50
+󰘫  |1: delta |2: ht |3: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *ht |4: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *h |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *htt
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: ,
+󰘫  |1: lsp cap:  |2: true |3: true |4: 50
+󰘫  |1: delta |2: tt |3: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *htt |4: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *ht |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: ,
+󰘫  |1: lsp cap:  |2: true |3: true |4: 50
+󰘫  |1: delta |2: tp |3: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http |4: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *htt |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http.
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: ,
+󰘫  |1: lsp cap:  |2: true |3: true |4: 50
+󰘫  |1: delta |2: p. |3: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http. |4: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http.R
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: ,
+󰘫  |1: lsp cap:  |2: true |3: true |4: 50
+󰘫  |1: delta |2: .R |3: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http.R |4: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http. |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http.Re
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: ,
+󰘫  |1: lsp cap:  |2: true |3: true |4: 50
+󰘫  |1: delta |2: Re |3: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http.Re |4: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http.R |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http.Request
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: ,
+󰘫  |1: lsp cap:  |2: true |3: true |4: 50
+󰘫  |1: delta |2: equest |3: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http.Request |4: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http.Re |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http.Request) 
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 68
+󰘫  |1: delta |2: t)  |3: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http.Request)  |4: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http.Request |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http.Request) {
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 69
+󰘫  |1: delta |2:  { |3: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http.Request) { |4: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http.Request)  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: delta |2: unc (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http.Request) { |3:    |4: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http.Request) { |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: delta |2:    |3:    |4:    |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: i
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   r
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 3
+󰘫  |1: delta |2:  r |3:   r |4:    |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   rw
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 4
+󰘫  |1: delta |2: rw |3:   rw |4:   r |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   rw.
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 5
+󰘫  |1: delta |2: w. |3:   rw. |4:   rw |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   rw.w
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 6
+󰘫  |1: delta |2: .w |3:   rw.w |4:   rw. |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   rw.wr
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 7
+󰘫  |1: delta |2: wr |3:   rw.wr |4:   rw.w |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   rw.Write(
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 11
+󰘫  |1: delta |2: rite( |3:   rw.Write( |4:   rw.wr |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: sig result |2: {
+  bufnr = 1,
+  client_id = 1,
+  method = "textDocument/signatureHelp",
+  params = {
+    position = {
+      character = 11,
+      line = 19
+    },
+    textDocument = {
+      uri = "file:///home/jsmith49/projects/go/microservice/handlers/goodbye.go"
+    }
+  }
+}
+ |3: {
+  cfgActiveSignature = 0,
+  signatures = { {
+      documentation = {
+        kind = "markdown",
+        value = "Write writes the data to the connection as part of an HTTP reply.\n\nIf WriteHeader has not yet been called, Write calls WriteHeader(http.StatusOK) before writing the data. If the Header does not contain a Content-Type line, Write adds a Content-Type set to the result of passing the initial 512 bytes of written data to DetectContentType. Additionally, if the total size of all written data is under a few KB and there are no Flush calls, the Content-Length header is added automatically.\n\nDepending on the HTTP protocol version and the client, calling Write or WriteHeader may prevent future reads on the Request.Body. For HTTP/1.x requests, handlers should read any needed request body data before writing the response. Once the headers have been flushed (due to either an explicit Flusher.Flush call or writing enough data to trigger a flush), the request body may be unavailable. For HTTP/2 requests, the Go HTTP server permits handlers to continue to read the request body while concurrently writing the response. However, such behavior may not be supported by all HTTP/2 clients. Handlers should read before writing if possible to maximize compatibility."
+      },
+      label = "Write([]byte) (int, error)",
+      parameters = { {
+          label = "[]byte"
+        } }
+    } }
+}
+ |4: {
+  border = "rounded",
+  check_completion_visible = true,
+  line_to_cursor = "  rw.Write(",
+  trigger_from_lsp_sig = true,
+  triggered_chars = { "(", "," }
+}
+
+󰘫  |1: sig actPar
+󰘫  |1: incorrect signature response? |2: {
+  cfgActiveSignature = 0,
+  signatures = { {
+      documentation = {
+        kind = "markdown",
+        value = "Write writes the data to the connection as part of an HTTP reply.\n\nIf WriteHeader has not yet been called, Write calls WriteHeader(http.StatusOK) before writing the data. If the Header does not contain a Content-Type line, Write adds a Content-Type set to the result of passing the initial 512 bytes of written data to DetectContentType. Additionally, if the total size of all written data is under a few KB and there are no Flush calls, the Content-Length header is added automatically.\n\nDepending on the HTTP protocol version and the client, calling Write or WriteHeader may prevent future reads on the Request.Body. For HTTP/1.x requests, handlers should read any needed request body data before writing the response. Once the headers have been flushed (due to either an explicit Flusher.Flush call or writing enough data to trigger a flush), the request body may be unavailable. For HTTP/2 requests, the Go HTTP server permits handlers to continue to read the request body while concurrently writing the response. However, such behavior may not be supported by all HTTP/2 clients. Handlers should read before writing if possible to maximize compatibility."
+      },
+      label = "Write([]byte) (int, error)",
+      parameters = { {
+          label = "[]byte"
+        } }
+    } }
+}
+ |3: {
+  border = "rounded",
+  check_completion_visible = true,
+  line_to_cursor = "  rw.Write(",
+  trigger_from_lsp_sig = true,
+  triggered_chars = { "(", "," }
+}
+
+󰘫  |1: nextpara: |2: {
+  label = "[]byte"
+}
+
+󰘫  |1: func |2: Write([]byte) (int, error) |3: {
+  label = "[]byte"
+}
+
+󰘫  |1: virtual text only : |2: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http.Request) { |3: } |4: { 20, 11 }
+ |5: 20 |6: }
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: virtual text:  |2: 19 |3: 20 |4: { "            []byte", "Comment" }
+
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   rw.Write(
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 11
+󰘫  |1: delta |2:   rw.Write( |3:   rw.Write( |4:   rw.Write( |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: i
+󰘫  |1: signature handler
+󰘫  |1: sig result |2: {
+  bufnr = 1,
+  client_id = 1,
+  method = "textDocument/signatureHelp",
+  params = {
+    position = {
+      character = 11,
+      line = 19
+    },
+    textDocument = {
+      uri = "file:///home/jsmith49/projects/go/microservice/handlers/goodbye.go"
+    }
+  }
+}
+ |3: {
+  cfgActiveSignature = 0,
+  signatures = { {
+      documentation = {
+        kind = "markdown",
+        value = "Write writes the data to the connection as part of an HTTP reply.\n\nIf WriteHeader has not yet been called, Write calls WriteHeader(http.StatusOK) before writing the data. If the Header does not contain a Content-Type line, Write adds a Content-Type set to the result of passing the initial 512 bytes of written data to DetectContentType. Additionally, if the total size of all written data is under a few KB and there are no Flush calls, the Content-Length header is added automatically.\n\nDepending on the HTTP protocol version and the client, calling Write or WriteHeader may prevent future reads on the Request.Body. For HTTP/1.x requests, handlers should read any needed request body data before writing the response. Once the headers have been flushed (due to either an explicit Flusher.Flush call or writing enough data to trigger a flush), the request body may be unavailable. For HTTP/2 requests, the Go HTTP server permits handlers to continue to read the request body while concurrently writing the response. However, such behavior may not be supported by all HTTP/2 clients. Handlers should read before writing if possible to maximize compatibility."
+      },
+      label = "Write([]byte) (int, error)",
+      parameters = { {
+          label = "[]byte"
+        } }
+    } }
+}
+ |4: {
+  border = "rounded",
+  line_to_cursor = "  rw.Write(",
+  trigger_from_cursor_hold = true,
+  triggered_chars = { "(", "," }
+}
+
+󰘫  |1: sig actPar
+󰘫  |1: incorrect signature response? |2: {
+  cfgActiveSignature = 0,
+  signatures = { {
+      documentation = {
+        kind = "markdown",
+        value = "Write writes the data to the connection as part of an HTTP reply.\n\nIf WriteHeader has not yet been called, Write calls WriteHeader(http.StatusOK) before writing the data. If the Header does not contain a Content-Type line, Write adds a Content-Type set to the result of passing the initial 512 bytes of written data to DetectContentType. Additionally, if the total size of all written data is under a few KB and there are no Flush calls, the Content-Length header is added automatically.\n\nDepending on the HTTP protocol version and the client, calling Write or WriteHeader may prevent future reads on the Request.Body. For HTTP/1.x requests, handlers should read any needed request body data before writing the response. Once the headers have been flushed (due to either an explicit Flusher.Flush call or writing enough data to trigger a flush), the request body may be unavailable. For HTTP/2 requests, the Go HTTP server permits handlers to continue to read the request body while concurrently writing the response. However, such behavior may not be supported by all HTTP/2 clients. Handlers should read before writing if possible to maximize compatibility."
+      },
+      label = "Write([]byte) (int, error)",
+      parameters = { {
+          label = "[]byte"
+        } }
+    } }
+}
+ |3: {
+  border = "rounded",
+  line_to_cursor = "  rw.Write(",
+  trigger_from_cursor_hold = true,
+  triggered_chars = { "(", "," }
+}
+
+󰘫  |1: nextpara: |2: {
+  label = "[]byte"
+}
+
+󰘫  |1: func |2: Write([]byte) (int, error) |3: {
+  label = "[]byte"
+}
+
+󰘫  |1: virtual text only : |2: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http.Request) { |3: } |4: { 20, 11 }
+ |5: 20 |6: }
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: virtual text:  |2: 19 |3: 20 |4: { "            []byte", "Comment" }
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   rw.Write([
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 11
+󰘫  |1: delta |2: ([ |3:   rw.Write([ |4:   rw.Write( |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: sig result |2: {
+  bufnr = 1,
+  client_id = 1,
+  method = "textDocument/signatureHelp",
+  params = {
+    position = {
+      character = 11,
+      line = 19
+    },
+    textDocument = {
+      uri = "file:///home/jsmith49/projects/go/microservice/handlers/goodbye.go"
+    }
+  }
+}
+ |3: {
+  cfgActiveSignature = 0,
+  signatures = { {
+      documentation = {
+        kind = "markdown",
+        value = "Write writes the data to the connection as part of an HTTP reply.\n\nIf WriteHeader has not yet been called, Write calls WriteHeader(http.StatusOK) before writing the data. If the Header does not contain a Content-Type line, Write adds a Content-Type set to the result of passing the initial 512 bytes of written data to DetectContentType. Additionally, if the total size of all written data is under a few KB and there are no Flush calls, the Content-Length header is added automatically.\n\nDepending on the HTTP protocol version and the client, calling Write or WriteHeader may prevent future reads on the Request.Body. For HTTP/1.x requests, handlers should read any needed request body data before writing the response. Once the headers have been flushed (due to either an explicit Flusher.Flush call or writing enough data to trigger a flush), the request body may be unavailable. For HTTP/2 requests, the Go HTTP server permits handlers to continue to read the request body while concurrently writing the response. However, such behavior may not be supported by all HTTP/2 clients. Handlers should read before writing if possible to maximize compatibility."
+      },
+      label = "Write([]byte) (int, error)",
+      parameters = { {
+          label = "[]byte"
+        } }
+    } }
+}
+ |4: {
+  border = "rounded",
+  check_completion_visible = true,
+  line_to_cursor = "  rw.Write(",
+  trigger_from_lsp_sig = true,
+  triggered_chars = { "(", "," }
+}
+
+󰘫  |1: sig actPar
+󰘫  |1: incorrect signature response? |2: {
+  cfgActiveSignature = 0,
+  signatures = { {
+      documentation = {
+        kind = "markdown",
+        value = "Write writes the data to the connection as part of an HTTP reply.\n\nIf WriteHeader has not yet been called, Write calls WriteHeader(http.StatusOK) before writing the data. If the Header does not contain a Content-Type line, Write adds a Content-Type set to the result of passing the initial 512 bytes of written data to DetectContentType. Additionally, if the total size of all written data is under a few KB and there are no Flush calls, the Content-Length header is added automatically.\n\nDepending on the HTTP protocol version and the client, calling Write or WriteHeader may prevent future reads on the Request.Body. For HTTP/1.x requests, handlers should read any needed request body data before writing the response. Once the headers have been flushed (due to either an explicit Flusher.Flush call or writing enough data to trigger a flush), the request body may be unavailable. For HTTP/2 requests, the Go HTTP server permits handlers to continue to read the request body while concurrently writing the response. However, such behavior may not be supported by all HTTP/2 clients. Handlers should read before writing if possible to maximize compatibility."
+      },
+      label = "Write([]byte) (int, error)",
+      parameters = { {
+          label = "[]byte"
+        } }
+    } }
+}
+ |3: {
+  border = "rounded",
+  check_completion_visible = true,
+  line_to_cursor = "  rw.Write(",
+  trigger_from_lsp_sig = true,
+  triggered_chars = { "(", "," }
+}
+
+󰘫  |1: nextpara: |2: {
+  label = "[]byte"
+}
+
+󰘫  |1: func |2: Write([]byte) (int, error) |3: {
+  label = "[]byte"
+}
+
+󰘫  |1: virtual text only : |2: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http.Request) { |3: } |4: { 20, 12 }
+ |5: 20 |6: }
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: virtual text:  |2: 19 |3: 20 |4: { "             []byte", "Comment" }
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   rw.Write([]b
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 11
+󰘫  |1: delta |2: []b |3:   rw.Write([]b |4:   rw.Write([ |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: sig result |2: {
+  bufnr = 1,
+  client_id = 1,
+  method = "textDocument/signatureHelp",
+  params = {
+    position = {
+      character = 11,
+      line = 19
+    },
+    textDocument = {
+      uri = "file:///home/jsmith49/projects/go/microservice/handlers/goodbye.go"
+    }
+  }
+}
+ |3: {
+  cfgActiveSignature = 0,
+  signatures = { {
+      documentation = {
+        kind = "markdown",
+        value = "Write writes the data to the connection as part of an HTTP reply.\n\nIf WriteHeader has not yet been called, Write calls WriteHeader(http.StatusOK) before writing the data. If the Header does not contain a Content-Type line, Write adds a Content-Type set to the result of passing the initial 512 bytes of written data to DetectContentType. Additionally, if the total size of all written data is under a few KB and there are no Flush calls, the Content-Length header is added automatically.\n\nDepending on the HTTP protocol version and the client, calling Write or WriteHeader may prevent future reads on the Request.Body. For HTTP/1.x requests, handlers should read any needed request body data before writing the response. Once the headers have been flushed (due to either an explicit Flusher.Flush call or writing enough data to trigger a flush), the request body may be unavailable. For HTTP/2 requests, the Go HTTP server permits handlers to continue to read the request body while concurrently writing the response. However, such behavior may not be supported by all HTTP/2 clients. Handlers should read before writing if possible to maximize compatibility."
+      },
+      label = "Write([]byte) (int, error)",
+      parameters = { {
+          label = "[]byte"
+        } }
+    } }
+}
+ |4: {
+  border = "rounded",
+  check_completion_visible = true,
+  line_to_cursor = "  rw.Write(",
+  trigger_from_lsp_sig = true,
+  triggered_chars = { "(", "," }
+}
+
+󰘫  |1: sig actPar
+󰘫  |1: incorrect signature response? |2: {
+  cfgActiveSignature = 0,
+  signatures = { {
+      documentation = {
+        kind = "markdown",
+        value = "Write writes the data to the connection as part of an HTTP reply.\n\nIf WriteHeader has not yet been called, Write calls WriteHeader(http.StatusOK) before writing the data. If the Header does not contain a Content-Type line, Write adds a Content-Type set to the result of passing the initial 512 bytes of written data to DetectContentType. Additionally, if the total size of all written data is under a few KB and there are no Flush calls, the Content-Length header is added automatically.\n\nDepending on the HTTP protocol version and the client, calling Write or WriteHeader may prevent future reads on the Request.Body. For HTTP/1.x requests, handlers should read any needed request body data before writing the response. Once the headers have been flushed (due to either an explicit Flusher.Flush call or writing enough data to trigger a flush), the request body may be unavailable. For HTTP/2 requests, the Go HTTP server permits handlers to continue to read the request body while concurrently writing the response. However, such behavior may not be supported by all HTTP/2 clients. Handlers should read before writing if possible to maximize compatibility."
+      },
+      label = "Write([]byte) (int, error)",
+      parameters = { {
+          label = "[]byte"
+        } }
+    } }
+}
+ |3: {
+  border = "rounded",
+  check_completion_visible = true,
+  line_to_cursor = "  rw.Write(",
+  trigger_from_lsp_sig = true,
+  triggered_chars = { "(", "," }
+}
+
+󰘫  |1: nextpara: |2: {
+  label = "[]byte"
+}
+
+󰘫  |1: func |2: Write([]byte) (int, error) |3: {
+  label = "[]byte"
+}
+
+󰘫  |1: virtual text only : |2: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http.Request) { |3: } |4: { 20, 14 }
+ |5: 19
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: virtual text:  |2: 19 |3: 19 |4: { "  []byte", "Comment" }
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   rw.Write([]by
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 11
+󰘫  |1: delta |2: by |3:   rw.Write([]by |4:   rw.Write([]b |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: sig result |2: {
+  bufnr = 1,
+  client_id = 1,
+  method = "textDocument/signatureHelp",
+  params = {
+    position = {
+      character = 11,
+      line = 19
+    },
+    textDocument = {
+      uri = "file:///home/jsmith49/projects/go/microservice/handlers/goodbye.go"
+    }
+  }
+}
+ |3: {
+  cfgActiveSignature = 0,
+  signatures = { {
+      documentation = {
+        kind = "markdown",
+        value = "Write writes the data to the connection as part of an HTTP reply.\n\nIf WriteHeader has not yet been called, Write calls WriteHeader(http.StatusOK) before writing the data. If the Header does not contain a Content-Type line, Write adds a Content-Type set to the result of passing the initial 512 bytes of written data to DetectContentType. Additionally, if the total size of all written data is under a few KB and there are no Flush calls, the Content-Length header is added automatically.\n\nDepending on the HTTP protocol version and the client, calling Write or WriteHeader may prevent future reads on the Request.Body. For HTTP/1.x requests, handlers should read any needed request body data before writing the response. Once the headers have been flushed (due to either an explicit Flusher.Flush call or writing enough data to trigger a flush), the request body may be unavailable. For HTTP/2 requests, the Go HTTP server permits handlers to continue to read the request body while concurrently writing the response. However, such behavior may not be supported by all HTTP/2 clients. Handlers should read before writing if possible to maximize compatibility."
+      },
+      label = "Write([]byte) (int, error)",
+      parameters = { {
+          label = "[]byte"
+        } }
+    } }
+}
+ |4: {
+  border = "rounded",
+  check_completion_visible = true,
+  line_to_cursor = "  rw.Write(",
+  trigger_from_lsp_sig = true,
+  triggered_chars = { "(", "," }
+}
+
+󰘫  |1: sig actPar
+󰘫  |1: incorrect signature response? |2: {
+  cfgActiveSignature = 0,
+  signatures = { {
+      documentation = {
+        kind = "markdown",
+        value = "Write writes the data to the connection as part of an HTTP reply.\n\nIf WriteHeader has not yet been called, Write calls WriteHeader(http.StatusOK) before writing the data. If the Header does not contain a Content-Type line, Write adds a Content-Type set to the result of passing the initial 512 bytes of written data to DetectContentType. Additionally, if the total size of all written data is under a few KB and there are no Flush calls, the Content-Length header is added automatically.\n\nDepending on the HTTP protocol version and the client, calling Write or WriteHeader may prevent future reads on the Request.Body. For HTTP/1.x requests, handlers should read any needed request body data before writing the response. Once the headers have been flushed (due to either an explicit Flusher.Flush call or writing enough data to trigger a flush), the request body may be unavailable. For HTTP/2 requests, the Go HTTP server permits handlers to continue to read the request body while concurrently writing the response. However, such behavior may not be supported by all HTTP/2 clients. Handlers should read before writing if possible to maximize compatibility."
+      },
+      label = "Write([]byte) (int, error)",
+      parameters = { {
+          label = "[]byte"
+        } }
+    } }
+}
+ |3: {
+  border = "rounded",
+  check_completion_visible = true,
+  line_to_cursor = "  rw.Write(",
+  trigger_from_lsp_sig = true,
+  triggered_chars = { "(", "," }
+}
+
+󰘫  |1: nextpara: |2: {
+  label = "[]byte"
+}
+
+󰘫  |1: func |2: Write([]byte) (int, error) |3: {
+  label = "[]byte"
+}
+
+󰘫  |1: virtual text only : |2: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http.Request) { |3: } |4: { 20, 15 }
+ |5: 19
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: virtual text:  |2: 19 |3: 19 |4: { "  []byte", "Comment" }
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   rw.Write([]byt
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 11
+󰘫  |1: delta |2: yt |3:   rw.Write([]byt |4:   rw.Write([]by |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: sig result |2: {
+  bufnr = 1,
+  client_id = 1,
+  method = "textDocument/signatureHelp",
+  params = {
+    position = {
+      character = 11,
+      line = 19
+    },
+    textDocument = {
+      uri = "file:///home/jsmith49/projects/go/microservice/handlers/goodbye.go"
+    }
+  }
+}
+ |3: {
+  cfgActiveSignature = 0,
+  signatures = { {
+      documentation = {
+        kind = "markdown",
+        value = "Write writes the data to the connection as part of an HTTP reply.\n\nIf WriteHeader has not yet been called, Write calls WriteHeader(http.StatusOK) before writing the data. If the Header does not contain a Content-Type line, Write adds a Content-Type set to the result of passing the initial 512 bytes of written data to DetectContentType. Additionally, if the total size of all written data is under a few KB and there are no Flush calls, the Content-Length header is added automatically.\n\nDepending on the HTTP protocol version and the client, calling Write or WriteHeader may prevent future reads on the Request.Body. For HTTP/1.x requests, handlers should read any needed request body data before writing the response. Once the headers have been flushed (due to either an explicit Flusher.Flush call or writing enough data to trigger a flush), the request body may be unavailable. For HTTP/2 requests, the Go HTTP server permits handlers to continue to read the request body while concurrently writing the response. However, such behavior may not be supported by all HTTP/2 clients. Handlers should read before writing if possible to maximize compatibility."
+      },
+      label = "Write([]byte) (int, error)",
+      parameters = { {
+          label = "[]byte"
+        } }
+    } }
+}
+ |4: {
+  border = "rounded",
+  check_completion_visible = true,
+  line_to_cursor = "  rw.Write(",
+  trigger_from_lsp_sig = true,
+  triggered_chars = { "(", "," }
+}
+
+󰘫  |1: sig actPar
+󰘫  |1: incorrect signature response? |2: {
+  cfgActiveSignature = 0,
+  signatures = { {
+      documentation = {
+        kind = "markdown",
+        value = "Write writes the data to the connection as part of an HTTP reply.\n\nIf WriteHeader has not yet been called, Write calls WriteHeader(http.StatusOK) before writing the data. If the Header does not contain a Content-Type line, Write adds a Content-Type set to the result of passing the initial 512 bytes of written data to DetectContentType. Additionally, if the total size of all written data is under a few KB and there are no Flush calls, the Content-Length header is added automatically.\n\nDepending on the HTTP protocol version and the client, calling Write or WriteHeader may prevent future reads on the Request.Body. For HTTP/1.x requests, handlers should read any needed request body data before writing the response. Once the headers have been flushed (due to either an explicit Flusher.Flush call or writing enough data to trigger a flush), the request body may be unavailable. For HTTP/2 requests, the Go HTTP server permits handlers to continue to read the request body while concurrently writing the response. However, such behavior may not be supported by all HTTP/2 clients. Handlers should read before writing if possible to maximize compatibility."
+      },
+      label = "Write([]byte) (int, error)",
+      parameters = { {
+          label = "[]byte"
+        } }
+    } }
+}
+ |3: {
+  border = "rounded",
+  check_completion_visible = true,
+  line_to_cursor = "  rw.Write(",
+  trigger_from_lsp_sig = true,
+  triggered_chars = { "(", "," }
+}
+
+󰘫  |1: nextpara: |2: {
+  label = "[]byte"
+}
+
+󰘫  |1: func |2: Write([]byte) (int, error) |3: {
+  label = "[]byte"
+}
+
+󰘫  |1: virtual text only : |2: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http.Request) { |3: } |4: { 20, 16 }
+ |5: 19
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: virtual text:  |2: 19 |3: 19 |4: { "  []byte", "Comment" }
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   rw.Write([]byte
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 11
+󰘫  |1: delta |2: te |3:   rw.Write([]byte |4:   rw.Write([]byt |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: sig result |2: {
+  bufnr = 1,
+  client_id = 1,
+  method = "textDocument/signatureHelp",
+  params = {
+    position = {
+      character = 11,
+      line = 19
+    },
+    textDocument = {
+      uri = "file:///home/jsmith49/projects/go/microservice/handlers/goodbye.go"
+    }
+  }
+}
+ |3: {
+  cfgActiveSignature = 0,
+  signatures = { {
+      documentation = {
+        kind = "markdown",
+        value = "Write writes the data to the connection as part of an HTTP reply.\n\nIf WriteHeader has not yet been called, Write calls WriteHeader(http.StatusOK) before writing the data. If the Header does not contain a Content-Type line, Write adds a Content-Type set to the result of passing the initial 512 bytes of written data to DetectContentType. Additionally, if the total size of all written data is under a few KB and there are no Flush calls, the Content-Length header is added automatically.\n\nDepending on the HTTP protocol version and the client, calling Write or WriteHeader may prevent future reads on the Request.Body. For HTTP/1.x requests, handlers should read any needed request body data before writing the response. Once the headers have been flushed (due to either an explicit Flusher.Flush call or writing enough data to trigger a flush), the request body may be unavailable. For HTTP/2 requests, the Go HTTP server permits handlers to continue to read the request body while concurrently writing the response. However, such behavior may not be supported by all HTTP/2 clients. Handlers should read before writing if possible to maximize compatibility."
+      },
+      label = "Write([]byte) (int, error)",
+      parameters = { {
+          label = "[]byte"
+        } }
+    } }
+}
+ |4: {
+  border = "rounded",
+  check_completion_visible = true,
+  line_to_cursor = "  rw.Write(",
+  trigger_from_lsp_sig = true,
+  triggered_chars = { "(", "," }
+}
+
+󰘫  |1: sig actPar
+󰘫  |1: incorrect signature response? |2: {
+  cfgActiveSignature = 0,
+  signatures = { {
+      documentation = {
+        kind = "markdown",
+        value = "Write writes the data to the connection as part of an HTTP reply.\n\nIf WriteHeader has not yet been called, Write calls WriteHeader(http.StatusOK) before writing the data. If the Header does not contain a Content-Type line, Write adds a Content-Type set to the result of passing the initial 512 bytes of written data to DetectContentType. Additionally, if the total size of all written data is under a few KB and there are no Flush calls, the Content-Length header is added automatically.\n\nDepending on the HTTP protocol version and the client, calling Write or WriteHeader may prevent future reads on the Request.Body. For HTTP/1.x requests, handlers should read any needed request body data before writing the response. Once the headers have been flushed (due to either an explicit Flusher.Flush call or writing enough data to trigger a flush), the request body may be unavailable. For HTTP/2 requests, the Go HTTP server permits handlers to continue to read the request body while concurrently writing the response. However, such behavior may not be supported by all HTTP/2 clients. Handlers should read before writing if possible to maximize compatibility."
+      },
+      label = "Write([]byte) (int, error)",
+      parameters = { {
+          label = "[]byte"
+        } }
+    } }
+}
+ |3: {
+  border = "rounded",
+  check_completion_visible = true,
+  line_to_cursor = "  rw.Write(",
+  trigger_from_lsp_sig = true,
+  triggered_chars = { "(", "," }
+}
+
+󰘫  |1: nextpara: |2: {
+  label = "[]byte"
+}
+
+󰘫  |1: func |2: Write([]byte) (int, error) |3: {
+  label = "[]byte"
+}
+
+󰘫  |1: virtual text only : |2: func (g*Goodbye) ServeHTTP(rw http.ResponseWriter, r *http.Request) { |3: } |4: { 20, 17 }
+ |5: 19
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: virtual text:  |2: 19 |3: 19 |4: { "  []byte", "Comment" }
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   rw.Write([]byte(
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 18
+󰘫  |1: delta |2: e( |3:   rw.Write([]byte( |4:   rw.Write([]byte |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   rw.Write([]byte("
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 18
+󰘫  |1: delta |2: (" |3:   rw.Write([]byte(" |4:   rw.Write([]byte( |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   rw.Write([]byte("B
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 18
+󰘫  |1: delta |2: "B |3:   rw.Write([]byte("B |4:   rw.Write([]byte(" |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   rw.Write([]byte("By
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 18
+󰘫  |1: delta |2: By |3:   rw.Write([]byte("By |4:   rw.Write([]byte("B |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   rw.Write([]byte("Bye
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 18
+󰘫  |1: delta |2: ye |3:   rw.Write([]byte("Bye |4:   rw.Write([]byte("By |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   rw.Write([]byte("Byee
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 18
+󰘫  |1: delta |2: ee |3:   rw.Write([]byte("Byee |4:   rw.Write([]byte("Bye |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:813: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:837: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:813: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:837: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: insert enter
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   rw.Write([]byte("Byee
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 18
+󰘫  |1: delta |2:   rw.Write([]byte("Byee |3:   rw.Write([]byte("Byee |4:  |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   rw.Write([]byte("Byee!
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 18
+󰘫  |1: delta |2: e! |3:   rw.Write([]byte("Byee! |4:   rw.Write([]byte("Byee |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:813: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:837: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:813: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:837: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   rw.Write([]byte("Byee
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 18
+󰘫  |1: delta |2:   rw.Write([]byte("Byee |3:   rw.Write([]byte("Byee |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  signature_result = {
+    cfgActiveSignature = 0,
+    signatures = { {
+        documentation = {
+          kind = "markdown",
+          value = "Write writes the data to the connection as part of an HTTP reply.\n\nIf WriteHeader has not yet been called, Write calls WriteHeader(http.StatusOK) before writing the data. If the Header does not contain a Content-Type line, Write adds a Content-Type set to the result of passing the initial 512 bytes of written data to DetectContentType. Additionally, if the total size of all written data is under a few KB and there are no Flush calls, the Content-Length header is added automatically.\n\nDepending on the HTTP protocol version and the client, calling Write or WriteHeader may prevent future reads on the Request.Body. For HTTP/1.x requests, handlers should read any needed request body data before writing the response. Once the headers have been flushed (due to either an explicit Flusher.Flush call or writing enough data to trigger a flush), the request body may be unavailable. For HTTP/2 requests, the Go HTTP server permits handlers to continue to read the request body while concurrently writing the response. However, such behavior may not be supported by all HTTP/2 clients. Handlers should read before writing if possible to maximize compatibility."
+        },
+        label = "Write([]byte) (int, error)",
+        parameters = { {
+            label = "[]byte"
+          } }
+      } }
+  },
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:813: in function 'on_InsertLeave'
+	[string ":lua"]:1: in main chunk
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: insert enter
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   rw.Write([]byte("Byee!
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 18
+󰘫  |1: delta |2:   rw.Write([]byte("Byee! |3:   rw.Write([]byte("Byee! |4:  |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   rw.Write([]byte("Byee!\
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 18
+󰘫  |1: delta |2: !\ |3:   rw.Write([]byte("Byee!\ |4:   rw.Write([]byte("Byee! |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   rw.Write([]byte("Byee!\n
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 18
+󰘫  |1: delta |2: \n |3:   rw.Write([]byte("Byee!\n |4:   rw.Write([]byte("Byee!\ |5: {}
+
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:813: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:837: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:813: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:837: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2:   rw.Write([]byte("Byee!\
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: , |2: false
+󰘫  |1: not special |2: ,
+󰘫  |1: [%(,][^%(,%)]*$ |2: %(, |3: ^%(,%)
+󰘫  |1: last trigger char |2: (
+󰘫  |1: lsp cap:  |2: true |3: true |4: 18
+󰘫  |1: delta |2:   rw.Write([]byte("Byee!\ |3:   rw.Write([]byte("Byee!\ |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  triggerCharacters = { "(", "," }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: delta |2:   rw.Write([]byte("Byee!\ |3:  |4:   rw.Write([]byte("Byee!\ |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
