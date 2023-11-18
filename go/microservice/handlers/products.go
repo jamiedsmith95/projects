@@ -1,6 +1,21 @@
+// Package classification of Product API
+//
+// # Documentation for Product API
+//
+// Schemes: http
+// BasePath: /
+// Version: 1.0.0
+//
+// Consumes:
+// - application/json
+//
+// Produces:
+// - application/json
+// swagger:meta
 package handlers
 
 import (
+	"context"
 	"fmt"
 	"log"
 	"net/http"
@@ -12,6 +27,14 @@ import (
 	"my.org/micro/product-api/data"
 )
 
+// A list of products returned in the response
+// swagger:response productsResponse
+type productsResponse struct {
+	// All products in the system
+  // in: body
+	Body []data.Product
+}
+
 type Products struct {
 	l *log.Logger
 }
@@ -20,6 +43,8 @@ func NewProduct(l *log.Logger) *Products {
 	return &Products{l}
 }
 
+// swagger:route DELETE /products products deleteProduct
+// Removes the information from the specified product
 func (p *Products) RemoveProduct(rw http.ResponseWriter, r *http.Request) {
 	vars := mux.Vars(r)
 	id, err := strconv.Atoi(vars["id"])
@@ -32,15 +57,17 @@ func (p *Products) RemoveProduct(rw http.ResponseWriter, r *http.Request) {
 	data.RemoveProduct(id)
 }
 
+// swagger:route PATCH /products products modifyProduct
+// Modifies the specified product, altering the specified fields
 func (p *Products) ChangeProduct(rw http.ResponseWriter, r *http.Request) {
 	vars := mux.Vars(r)
 	id, err := strconv.Atoi(vars["id"])
-
 	if err != nil {
 		http.Error(rw, "Unable to convert id", http.StatusBadRequest)
 		fmt.Println(err)
 		return
 	}
+
 	prod := r.Context().Value(KeyProduct{}).(data.Product)
 
 	p.l.Printf("Modified product %#v", prod)
@@ -51,12 +78,16 @@ func (p *Products) ChangeProduct(rw http.ResponseWriter, r *http.Request) {
 	}
 }
 
+// swagger:route POST /products products addProduct
+// Adds a new products onto the existing list of products
 func (p *Products) AddProducts(rw http.ResponseWriter, r *http.Request) {
-  prod := r.Context().Value(KeyProduct{}).(data.Product)
+	prod := r.Context().Value(KeyProduct{}).(data.Product)
 	data.AddProduct(&prod)
 	p.l.Printf("Prod added %#v", prod)
 }
 
+// swagger:route PUT /products products replaceProduct
+// Replaces a product with a new product
 func (p *Products) UpdateProducts(rw http.ResponseWriter, r *http.Request) {
 	vars := mux.Vars(r)
 	id, err := strconv.Atoi(vars["id"])
@@ -66,15 +97,21 @@ func (p *Products) UpdateProducts(rw http.ResponseWriter, r *http.Request) {
 	}
 
 	p.l.Println("Handle PUT id: ", id)
-  prod := r.Context().Value(KeyProduct{}).(data.Product)
+	prod := r.Context().Value(KeyProduct{}).(data.Product)
 	err = data.UpdateProduct(id, &prod)
 
 	if err == data.ErrProductNotFound {
 		http.Error(rw, "Product not found", http.StatusNotFound)
 		return
 	}
-	}
+}
 
+// swagger:route GET /products products listProducts
+// Returns a list of products
+// Responses:
+//  200: productsResponse
+
+// GetProducts returns the products from the datastore
 func (p *Products) GetProducts(rw http.ResponseWriter, r *http.Request) {
 	lp := data.GetProducts()
 	err := lp.ToJSON(rw)
@@ -87,15 +124,22 @@ type KeyProduct struct{}
 
 func (p Products) MiddlewareProductValidation(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(rw http.ResponseWriter, r *http.Request) {
-		prod := &data.Product{}
+		prod := data.Product{}
 		err := prod.FromJSON(r.Body)
 		if err != nil {
 			http.Error(rw, "unable to unmarshal json", http.StatusBadRequest)
 			return
 		}
-		ctx := r.Context().WithValue(KeyProduct{}, prod)
-		req := r.WithContext(ctx)
+		// validate the product
+		err = prod.Validate()
+		if err != nil {
+			p.l.Println("[ERROR] validating product", err)
+			http.Error(rw, "Error validating product", http.StatusBadRequest)
+			return
+		}
+		ctx := context.WithValue(r.Context(), KeyProduct{}, prod)
+		r = r.WithContext(ctx)
 
-		next.ServeHTTP(rw, req)
+		next.ServeHTTP(rw, r)
 	})
 }

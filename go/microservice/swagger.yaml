@@ -1,0 +1,71 @@
+basePath: /
+consumes:
+    - application/json
+definitions:
+    Product:
+        properties:
+            description:
+                type: string
+                x-go-name: Description
+            id:
+                format: int64
+                type: integer
+                x-go-name: ID
+            name:
+                type: string
+                x-go-name: Name
+            price:
+                format: float
+                type: number
+                x-go-name: Price
+            sku:
+                type: string
+                x-go-name: SKU
+        type: object
+        x-go-package: my.org/micro/product-api/data
+info:
+    description: '# Documentation for Product API'
+    title: of Product API
+    version: 1.0.0
+paths:
+    /products:
+        delete:
+            description: Removes the information from the specified product
+            operationId: deleteProduct
+            tags:
+                - products
+        get:
+            description: Returns a list of products
+            operationId: listProducts
+            responses:
+                "200":
+                    $ref: '#/responses/productsResponse'
+            tags:
+                - products
+        patch:
+            description: Modifies the specified product, altering the specified fields
+            operationId: modifyProduct
+            tags:
+                - products
+        post:
+            description: Adds a new products onto the existing list of products
+            operationId: addProduct
+            tags:
+                - products
+        put:
+            description: Replaces a product with a new product
+            operationId: replaceProduct
+            tags:
+                - products
+produces:
+    - application/json
+responses:
+    productsResponse:
+        description: A list of products returned in the response
+        schema:
+            items:
+                $ref: '#/definitions/Product'
+            type: array
+schemes:
+    - http
+swagger: "2.0"

@@ -38,7 +38,7 @@ func main() {
   patchRouter.HandleFunc("/{id:[0-9]+}", ph.ChangeProduct)
   patchRouter.Use(ph.MiddlewareProductValidation)
 
-  deleteRouter := sm.Methods("DEL").Subrouter()
+  deleteRouter := sm.Methods("DELETE").Subrouter()
   deleteRouter.HandleFunc("/{id:[0-9]+}", ph.RemoveProduct )
 
 
