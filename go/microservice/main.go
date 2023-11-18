@@ -10,6 +10,7 @@ import (
 	"os/signal"
 	"time"
 
+	"github.com/go-openapi/runtime/middleware"
 	"github.com/gorilla/mux"
 
 	handlers "my.org/micro/handlers"
@@ -41,6 +42,11 @@ func main() {
   deleteRouter := sm.Methods("DELETE").Subrouter()
   deleteRouter.HandleFunc("/{id:[0-9]+}", ph.RemoveProduct )
 
+  opts := middleware.RedocOpts{SpecURL: "/swagger.yaml"}
+  sh := middleware.Redoc(opts,nil)
+
+  getRouter.Handle("/docs", sh)
+  getRouter.Handle("/swagger.yaml", http.FileServer(http.Dir("./")))
 
 	s := &http.Server{
 		Addr:         ":9090",
