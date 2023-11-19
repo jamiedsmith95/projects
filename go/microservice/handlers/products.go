@@ -27,12 +27,25 @@ import (
 	"my.org/micro/product-api/data"
 )
 
+// swagger:response noContent
+type productsNoContent struct {
+
+}
+
 // A list of products returned in the response
 // swagger:response productsResponse
 type productsResponseWrapper struct {
 	// All products in the system
   // in: body
 	Body []data.Product
+}
+
+// swagger:parameters deleteProduct modifyProduct replaceProduct
+type productIDParameterWrapper struct {
+  // The id of the product to perform operation on
+  // in: path
+  // required: true
+  ID int `json:"id"`
 }
 
 type Products struct {
@@ -43,8 +56,12 @@ func NewProduct(l *log.Logger) *Products {
 	return &Products{l}
 }
 
-// swagger:route DELETE /products products deleteProduct
+// swagger:route DELETE /products/{id} products deleteProduct
 // Removes the information from the specified product
+// responses:
+// 201: noContent
+
+// RemoveProduct deletes a product from the database
 func (p *Products) RemoveProduct(rw http.ResponseWriter, r *http.Request) {
 	vars := mux.Vars(r)
 	id, err := strconv.Atoi(vars["id"])
@@ -57,8 +74,10 @@ func (p *Products) RemoveProduct(rw http.ResponseWriter, r *http.Request) {
 	data.RemoveProduct(id)
 }
 
-// swagger:route PATCH /products products modifyProduct
+// swagger:route PATCH /products/{id} products modifyProduct
 // Modifies the specified product, altering the specified fields
+// responses:
+// 201: noContent
 func (p *Products) ChangeProduct(rw http.ResponseWriter, r *http.Request) {
 	vars := mux.Vars(r)
 	id, err := strconv.Atoi(vars["id"])
@@ -79,15 +98,19 @@ func (p *Products) ChangeProduct(rw http.ResponseWriter, r *http.Request) {
 }
 
 // swagger:route POST /products products addProduct
-// Adds a new products onto the existing list of products
+// Adds a new product onto the existing list of products
+// responses:
+// 201: noContent
 func (p *Products) AddProducts(rw http.ResponseWriter, r *http.Request) {
 	prod := r.Context().Value(KeyProduct{}).(data.Product)
 	data.AddProduct(&prod)
 	p.l.Printf("Prod added %#v", prod)
 }
 
-// swagger:route PUT /products products replaceProduct
+// swagger:route PUT /products/{id} products replaceProduct
 // Replaces a product with a new product
+// responses:
+// 201: noContent
 func (p *Products) UpdateProducts(rw http.ResponseWriter, r *http.Request) {
 	vars := mux.Vars(r)
 	id, err := strconv.Atoi(vars["id"])

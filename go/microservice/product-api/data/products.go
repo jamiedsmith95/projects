@@ -14,11 +14,29 @@ type Updater interface {
 	setVal() error
 }
 
+// swagger:model 
 type Product struct {
+  // the id for this product
+  //
+  // required: true
+  // min: 1
 	ID          int     `json:"id"`
+  // the name of the product
+  //
+  //required: true
 	Name        string  `json:"name" validate:"required"`
+  // description of the product
+  //
+  // required: false
 	Description string  `json:"description"`
+  // price of the product
+  //
+  // required: true
+  // min: 0
   Price       float32 `json:"price" validate:"gt=0"`
+  // product SKU
+  //
+  // required: true
   SKU         string  `json:"sku" validate:"required,sku"`
   CreatedOn   string  `json:"-"` 
 	UpdatedOn   string  `json:"-"`
