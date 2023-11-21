@@ -1,0 +1,5167 @@
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: insert enter
+󰘫  |1: changed
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: d
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 1
+󰘫  |1: delta |2: d |3: d |4:  |5: {}
+
+󰘫  |1: (
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: (
+󰘫  |1: delta |2: do |3: do |4: d |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: do
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: doc
+󰘫  |1: delta |2: oc |3: doc |4: do |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: lsp cap:  |2: true |3: false |4: 3
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: delta |2: doc |3:  |4: doc |5: {}
+
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: insert enter
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 9
+󰘫  |1: delta |2: <!DOCTYPE |3: <!DOCTYPE |4:  |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <!DOCTYPE
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <!DOCTYPE 
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 10
+󰘫  |1: delta |2: E  |3: <!DOCTYPE  |4: <!DOCTYPE |5: {}
+
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <!DOCTYPE h
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 11
+󰘫  |1: delta |2:  h |3: <!DOCTYPE h |4: <!DOCTYPE  |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <!DOCTYPE ht
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: ( |2: true
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: delta |2: ht |3: <!DOCTYPE ht |4: <!DOCTYPE h |5: {}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 12
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 13
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <!DOCTYPE htm
+󰘫  |1: (
+󰘫  |1: delta |2: tm |3: <!DOCTYPE htm |4: <!DOCTYPE ht |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <!DOCTYPE html
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 14
+󰘫  |1: delta |2: ml |3: <!DOCTYPE html |4: <!DOCTYPE htm |5: {}
+
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: Insert leave cleanup
+󰘫  |1: mode:    |2: n
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: insert enter
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: changed
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: changed
+󰘫  |1: lsp cap:  |2: true |3: false |4: 1
+󰘫  |1: (
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <
+󰘫  |1: delta |2: < |3: < |4:  |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <h
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2: <h |3: <h |4: < |5: {}
+
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <ht
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2: ht |3: <ht |4: <h |5: {}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 3
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 4
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <htm
+󰘫  |1: (
+󰘫  |1: delta |2: tm |3: <htm |4: <ht |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <html
+󰘫  |1: ( |2: true
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: delta |2: ml |3: <html |4: <htm |5: {}
+
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 5
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <html
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 5
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 6
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <html>
+󰘫  |1: (
+󰘫  |1: delta |2: l> |3: <html> |4: <html |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <html>o
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 7
+󰘫  |1: delta |2: >o |3: <html>o |4: <html> |5: {}
+
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 6
+󰘫  |1: delta |2: >o |3: <html> |4: <html>o |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <html>
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: delta |2: html> |3:    |4: <html> |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:   
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:   <
+󰘫  |1: lsp cap:  |2: true |3: false |4: 3
+󰘫  |1: (
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2:  < |3:   < |4:    |5: {}
+
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:   <h
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 4
+󰘫  |1: delta |2: <h |3:   <h |4:   < |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:   <he
+󰘫  |1: (
+󰘫  |1: ( |2: true
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: delta |2: he |3:   <he |4:   <h |5: {}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 5
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:   <hea
+󰘫  |1: ( |2: true
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 6
+󰘫  |1: (
+󰘫  |1: delta |2: ea |3:   <hea |4:   <he |5: {}
+
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 7
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:   <head
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: delta |2: ad |3:   <head |4:   <hea |5: {}
+
+󰘫  |1: changed
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 7
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:   <head
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 6
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <head>
+󰘫  |1: delta |2: ad |3: <head> |4:   <head |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: changed
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: delta |2: <head> |3:  |4: <head> |5: {}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: t
+󰘫  |1: ( |2: true
+󰘫  |1: lsp cap:  |2: true |3: false |4: 1
+󰘫  |1: delta |2: t |3: t |4:  |5: {}
+
+󰘫  |1: (
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: ( |2: true
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: delta |2: ti |3: ti |4: t |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: ti
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: tit
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 3
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: delta |2: it |3: tit |4: ti |5: {}
+
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <title>
+󰘫  |1: delta |2: itle> |3: <title> |4: tit |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: lsp cap:  |2: true |3: false |4: 7
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: changed
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <title>a
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 8
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: delta |2: >a |3: <title>a |4: <title> |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <title>
+󰘫  |1: (
+󰘫  |1: ( |2: true
+󰘫  |1: lsp cap:  |2: true |3: false |4: 7
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: delta |2: >a |3: <title> |4: <title>a |5: {}
+
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <title>D
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 8
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2: >D |3: <title>D |4: <title> |5: {}
+
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 9
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <title>Da
+󰘫  |1: delta |2: Da |3: <title>Da |4: <title>D |5: {}
+
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <title>Dat
+󰘫  |1: ( |2: true
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 10
+󰘫  |1: delta |2: at |3: <title>Dat |4: <title>Da |5: {}
+
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 11
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <title>Data
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: delta |2: ta |3: <title>Data |4: <title>Dat |5: {}
+
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <title>Data 
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2: a  |3: <title>Data  |4: <title>Data |5: {}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 12
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: (
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <title>Data C
+󰘫  |1: ( |2: true
+󰘫  |1: lsp cap:  |2: true |3: false |4: 13
+󰘫  |1: delta |2:  C |3: <title>Data C |4: <title>Data  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: ( |2: true
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: delta |2: Cr |3: <title>Data Cr |4: <title>Data C |5: {}
+
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 14
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <title>Data Cr
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <title>Data Cra
+󰘫  |1: (
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: delta |2: ra |3: <title>Data Cra |4: <title>Data Cr |5: {}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 15
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: delta |2: ra |3: <title>Data Cr |4: <title>Data Cra |5: {}
+
+󰘫  |1: (
+󰘫  |1: ( |2: true
+󰘫  |1: lsp cap:  |2: true |3: false |4: 14
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <title>Data Cr
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: changed
+󰘫  |1: lsp cap:  |2: true |3: false |4: 15
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <title>Data Cre
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: (
+󰘫  |1: delta |2: re |3: <title>Data Cre |4: <title>Data Cr |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <title>Data Crea
+󰘫  |1: (
+󰘫  |1: delta |2: ea |3: <title>Data Crea |4: <title>Data Cre |5: {}
+
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 16
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 17
+󰘫  |1: delta |2: at |3: <title>Data Creat |4: <title>Data Crea |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <title>Data Creat
+󰘫  |1: changed
+󰘫  |1: lsp cap:  |2: true |3: false |4: 18
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <title>Data Creato
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2: to |3: <title>Data Creato |4: <title>Data Creat |5: {}
+
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 19
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <title>Data Creator
+󰘫  |1: (
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2: or |3: <title>Data Creator |4: <title>Data Creato |5: {}
+
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: insert enter
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 1
+󰘫  |1: delta |2: < |3: < |4:  |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <l
+󰘫  |1: (
+󰘫  |1: delta |2: <l |3: <l |4: < |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 5
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link
+󰘫  |1: delta |2: link |3: <link |4: <l |5: {}
+
+󰘫  |1: changed
+󰘫  |1: lsp cap:  |2: true |3: false |4: 5
+󰘫  |1: (
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link 
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: delta |2: k  |3: <link  |4: <link |5: {}
+
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 6
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link r
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 7
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2:  r |3: <link r |4: <link  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 8
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link re
+󰘫  |1: delta |2: re |3: <link re |4: <link r |5: {}
+
+󰘫  |1: (
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2: el |3: <link rel |4: <link re |5: {}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 9
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel=
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2: l= |3: <link rel= |4: <link rel |5: {}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 10
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 11
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2: =" |3: <link rel=" |4: <link rel= |5: {}
+
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: ( |2: true
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="s
+󰘫  |1: delta |2: "s |3: <link rel="s |4: <link rel=" |5: {}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 12
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 13
+󰘫  |1: delta |2: st |3: <link rel="st |4: <link rel="s |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="st
+󰘫  |1: (
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: (
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="sty
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2: ty |3: <link rel="sty |4: <link rel="st |5: {}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 14
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="styl
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2: yl |3: <link rel="styl |4: <link rel="sty |5: {}
+
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 15
+󰘫  |1: changed
+󰘫  |1: lsp cap:  |2: true |3: false |4: 16
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: delta |2: le |3: <link rel="style |4: <link rel="styl |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="style
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="styles
+󰘫  |1: lsp cap:  |2: true |3: false |4: 17
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: delta |2: es |3: <link rel="styles |4: <link rel="style |5: {}
+
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: delta |2: sh |3: <link rel="stylesh |4: <link rel="styles |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="stylesh
+󰘫  |1: lsp cap:  |2: true |3: false |4: 18
+󰘫  |1: (
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="styleshe
+󰘫  |1: ( |2: true
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 19
+󰘫  |1: delta |2: he |3: <link rel="styleshe |4: <link rel="stylesh |5: {}
+
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 20
+󰘫  |1: delta |2: ee |3: <link rel="styleshee |4: <link rel="styleshe |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="styleshee
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="stylesheet
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 21
+󰘫  |1: delta |2: et |3: <link rel="stylesheet |4: <link rel="styleshee |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: ( |2: true
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="stylesheet" 
+󰘫  |1: (
+󰘫  |1: delta |2: t"  |3: <link rel="stylesheet"  |4: <link rel="stylesheet |5: {}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 23
+󰘫  |1: changed
+󰘫  |1: ( |2: true
+󰘫  |1: lsp cap:  |2: true |3: false |4: 24
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="stylesheet" h
+󰘫  |1: (
+󰘫  |1: delta |2:  h |3: <link rel="stylesheet" h |4: <link rel="stylesheet"  |5: {}
+
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: changed
+󰘫  |1: lsp cap:  |2: true |3: false |4: 25
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="stylesheet" hr
+󰘫  |1: delta |2: hr |3: <link rel="stylesheet" hr |4: <link rel="stylesheet" h |5: {}
+
+󰘫  |1: (
+󰘫  |1: ( |2: true
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 26
+󰘫  |1: delta |2: re |3: <link rel="stylesheet" hre |4: <link rel="stylesheet" hr |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="stylesheet" hre
+󰘫  |1: (
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 27
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="stylesheet" href
+󰘫  |1: (
+󰘫  |1: delta |2: ef |3: <link rel="stylesheet" href |4: <link rel="stylesheet" hre |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="stylesheet" href=
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: delta |2: f= |3: <link rel="stylesheet" href= |4: <link rel="stylesheet" href |5: {}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 28
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 29
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="stylesheet" href="
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2: =" |3: <link rel="stylesheet" href=" |4: <link rel="stylesheet" href= |5: {}
+
+󰘫  |1: changed
+󰘫  |1: lsp cap:  |2: true |3: false |4: 30
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="stylesheet" href="s
+󰘫  |1: (
+󰘫  |1: delta |2: "s |3: <link rel="stylesheet" href="s |4: <link rel="stylesheet" href=" |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 31
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="stylesheet" href="st
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2: st |3: <link rel="stylesheet" href="st |4: <link rel="stylesheet" href="s |5: {}
+
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 32
+󰘫  |1: delta |2: ty |3: <link rel="stylesheet" href="sty |4: <link rel="stylesheet" href="st |5: {}
+
+󰘫  |1: (
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="stylesheet" href="sty
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="stylesheet" href="styl
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2: yl |3: <link rel="stylesheet" href="styl |4: <link rel="stylesheet" href="sty |5: {}
+
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 33
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="stylesheet" href="style
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 34
+󰘫  |1: delta |2: le |3: <link rel="stylesheet" href="style |4: <link rel="stylesheet" href="styl |5: {}
+
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="stylesheet" href="styles
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 35
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2: es |3: <link rel="stylesheet" href="styles |4: <link rel="stylesheet" href="style |5: {}
+
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="stylesheet" href="styles.
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: delta |2: s. |3: <link rel="stylesheet" href="styles. |4: <link rel="stylesheet" href="styles |5: {}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 36
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 37
+󰘫  |1: delta |2: .c |3: <link rel="stylesheet" href="styles.c |4: <link rel="stylesheet" href="styles. |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="stylesheet" href="styles.c
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: ( |2: true
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 38
+󰘫  |1: delta |2: cs |3: <link rel="stylesheet" href="styles.cs |4: <link rel="stylesheet" href="styles.c |5: {}
+
+󰘫  |1: (
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="stylesheet" href="styles.cs
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 39
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="stylesheet" href="styles.css
+󰘫  |1: delta |2: ss |3: <link rel="stylesheet" href="styles.css |4: <link rel="stylesheet" href="styles.cs |5: {}
+
+󰘫  |1: (
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="stylesheet" href="styles.css"/
+󰘫  |1: lsp cap:  |2: true |3: false |4: 41
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: delta |2: s"/ |3: <link rel="stylesheet" href="styles.css"/ |4: <link rel="stylesheet" href="styles.css |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 42
+󰘫  |1: delta |2: /> |3: <link rel="stylesheet" href="styles.css"/> |4: <link rel="stylesheet" href="styles.css"/ |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <link rel="stylesheet" href="styles.css"/>
+󰘫  |1: (
+󰘫  |1: ( |2: true
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: Insert leave cleanup
+󰘫  |1: mode:    |2: n
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: insert enter
+󰘫  |1: changed
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 1
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: delta |2: < |3: < |4:  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: delta |2: </ |3: </ |4: < |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: </
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: delta |2: /h |3: </h |4: </ |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: </h
+󰘫  |1: lsp cap:  |2: true |3: false |4: 3
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: </ha
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 4
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: delta |2: ha |3: </ha |4: </h |5: {}
+
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 3
+󰘫  |1: delta |2: ha |3: </h |4: </ha |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: </h
+󰘫  |1: (
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 7
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: </head>
+󰘫  |1: (
+󰘫  |1: delta |2: head> |3: </head> |4: </h |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: Insert leave cleanup
+󰘫  |1: mode:    |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: async cleanup:  |2: c
+󰘫  |1: mode:    |2: c
+󰘫  |1: close timer
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: delta |2: </head |3: </head |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 6
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: </head
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: insert enter
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: changed
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: delta |2: < |3: < |4:  |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <
+󰘫  |1: lsp cap:  |2: true |3: false |4: 1
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <b
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: delta |2: <b |3: <b |4: < |5: {}
+
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2: <b |3: < |4: <b |5: {}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 1
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: delta |2: < |3:  |4: < |5: {}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: b
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 1
+󰘫  |1: delta |2: b |3: b |4:  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: bo
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: delta |2: bo |3: bo |4: b |5: {}
+
+󰘫  |1: (
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 3
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: bod
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2: od |3: bod |4: bo |5: {}
+
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: body
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 4
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2: dy |3: body |4: bod |5: {}
+
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:   
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: delta |2: ody |3:    |4: body |5: {}
+
+󰘫  |1: changed
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: delta |2:    |3:  |4:    |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:  
+󰘫  |1: lsp cap:  |2: true |3: false |4: 1
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: delta |2:   |3:   |4:  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:  d
+󰘫  |1: ( |2: true
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: delta |2:  d |3:  d |4:   |5: {}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:  di
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 3
+󰘫  |1: delta |2: di |3:  di |4:  d |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:  div
+󰘫  |1: ( |2: true
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 4
+󰘫  |1: (
+󰘫  |1: delta |2: iv |3:  div |4:  di |5: {}
+
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:  <div>
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 6
+󰘫  |1: delta |2: iv> |3:  <div> |4:  div |5: {}
+
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 7
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:  <div> 
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2: >  |3:  <div>  |4:  <div> |5: {}
+
+󰘫  |1: changed
+󰘫  |1: lsp cap:  |2: true |3: false |4: 6
+󰘫  |1: (
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:  <div 
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: delta |2: >  |3:  <div  |4:  <div>  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:  <div i
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: delta |2:  i |3:  <div i |4:  <div  |5: {}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 7
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: delta |2: id |3:  <div id |4:  <div i |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:  <div id
+󰘫  |1: lsp cap:  |2: true |3: false |4: 8
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 9
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:  <div id 
+󰘫  |1: (
+󰘫  |1: delta |2: d  |3:  <div id  |4:  <div id |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: ( |2: true
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: (
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:  <div id
+󰘫  |1: lsp cap:  |2: true |3: false |4: 8
+󰘫  |1: delta |2: d  |3:  <div id |4:  <div id  |5: {}
+
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:  <div id=
+󰘫  |1: delta |2: d= |3:  <div id= |4:  <div id |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: lsp cap:  |2: true |3: false |4: 9
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 10
+󰘫  |1: delta |2: =" |3:  <div id=" |4:  <div id= |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:  <div id="
+󰘫  |1: changed
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:  <div id="c
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: delta |2: "c |3:  <div id="c |4:  <div id=" |5: {}
+
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 11
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:  <div id="co
+󰘫  |1: ( |2: true
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 12
+󰘫  |1: delta |2: co |3:  <div id="co |4:  <div id="c |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:  <div id="con
+󰘫  |1: changed
+󰘫  |1: lsp cap:  |2: true |3: false |4: 13
+󰘫  |1: delta |2: on |3:  <div id="con |4:  <div id="co |5: {}
+
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: lsp cap:  |2: true |3: false |4: 14
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:  <div id="cont
+󰘫  |1: delta |2: nt |3:  <div id="cont |4:  <div id="con |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 15
+󰘫  |1: delta |2: te |3:  <div id="conte |4:  <div id="cont |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:  <div id="conte
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:  <div id="conten
+󰘫  |1: (
+󰘫  |1: delta |2: en |3:  <div id="conten |4:  <div id="conte |5: {}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 16
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 17
+󰘫  |1: delta |2: nt |3:  <div id="content |4:  <div id="conten |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:  <div id="content
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: delta |2:  id="content |3:        |4:  <div id="content |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:       
+󰘫  |1: lsp cap:  |2: true |3: false |4: 6
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:       
+󰘫  |1: delta |2:        |3:        |4:        |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: i
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 6
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 7
+󰘫  |1: delta |2:  h |3:       h |4:        |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:       h
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:       h1
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2: h1 |3:       h1 |4:       h |5: {}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 8
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 10
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:       <h1>
+󰘫  |1: delta |2: h1> |3:       <h1> |4:       h1 |5: {}
+
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: (
+󰘫  |1: ( |2: true
+󰘫  |1: lsp cap:  |2: true |3: false |4: 11
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:       <h1>D
+󰘫  |1: delta |2: >D |3:       <h1>D |4:       <h1> |5: {}
+
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:       <h1>Da
+󰘫  |1: delta |2: Da |3:       <h1>Da |4:       <h1>D |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: lsp cap:  |2: true |3: false |4: 12
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:       <h1>Dat
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 13
+󰘫  |1: ( |2: true
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: delta |2: at |3:       <h1>Dat |4:       <h1>Da |5: {}
+
+󰘫  |1: changed
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:       <h1>Data
+󰘫  |1: lsp cap:  |2: true |3: false |4: 14
+󰘫  |1: delta |2: ta |3:       <h1>Data |4:       <h1>Dat |5: {}
+
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 15
+󰘫  |1: delta |2: a  |3:       <h1>Data  |4:       <h1>Data |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:       <h1>Data 
+󰘫  |1: (
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:       <h1>Data C
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 16
+󰘫  |1: delta |2:  C |3:       <h1>Data C |4:       <h1>Data  |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:       <h1>Data Cr
+󰘫  |1: delta |2: Cr |3:       <h1>Data Cr |4:       <h1>Data C |5: {}
+
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 17
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:       <h1>Data Cre
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2: re |3:       <h1>Data Cre |4:       <h1>Data Cr |5: {}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 18
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:       <h1>Data Crea
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 19
+󰘫  |1: (
+󰘫  |1: delta |2: ea |3:       <h1>Data Crea |4:       <h1>Data Cre |5: {}
+
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 20
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:       <h1>Data Creat
+󰘫  |1: delta |2: at |3:       <h1>Data Creat |4:       <h1>Data Crea |5: {}
+
+󰘫  |1: (
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: (
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:       <h1>Data Creato
+󰘫  |1: delta |2: to |3:       <h1>Data Creato |4:       <h1>Data Creat |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: lsp cap:  |2: true |3: false |4: 21
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 22
+󰘫  |1: delta |2: or |3:       <h1>Data Creator |4:       <h1>Data Creato |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:       <h1>Data Creator
+󰘫  |1: (
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: insert enter
+󰘫  |1: changed
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: delta |2:        |3:        |4:  |5: {}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 6
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:       
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:       b
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 7
+󰘫  |1: delta |2:  b |3:       b |4:        |5: {}
+
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:       br
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 8
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2: br |3:       br |4:       b |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:       <br>
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 10
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: delta |2: br> |3:       <br> |4:       br |5: {}
+
+󰘫  |1: Insert leave cleanup
+󰘫  |1: mode:    |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: insert enter
+󰘫  |1: changed
+󰘫  |1: delta |2:          |3:          |4:  |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 8
+󰘫  |1: changed
+󰘫  |1: lsp cap:  |2: true |3: false |4: 9
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2:  D |3:         D |4:          |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         D
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         
+󰘫  |1: delta |2:  D |3:          |4:         D |5: {}
+
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 8
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: ( |2: true
+󰘫  |1: lsp cap:  |2: true |3: false |4: 9
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         d
+󰘫  |1: delta |2:  d |3:         d |4:          |5: {}
+
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         di
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 10
+󰘫  |1: delta |2: di |3:         di |4:         d |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: lsp cap:  |2: true |3: false |4: 11
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         div
+󰘫  |1: (
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2: iv |3:         div |4:         di |5: {}
+
+󰘫  |1: changed
+󰘫  |1: ( |2: true
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 13
+󰘫  |1: delta |2: iv> |3:         <div> |4:         div |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         <div>
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         <div>i
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 14
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2: >i |3:         <div>i |4:         <div> |5: {}
+
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 15
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         <div>id
+󰘫  |1: delta |2: id |3:         <div>id |4:         <div>i |5: {}
+
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 16
+󰘫  |1: delta |2: d= |3:         <div>id= |4:         <div>id |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         <div>id=
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: ( |2: true
+󰘫  |1: lsp cap:  |2: true |3: false |4: 17
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         <div>id="
+󰘫  |1: (
+󰘫  |1: delta |2: =" |3:         <div>id=" |4:         <div>id= |5: {}
+
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: changed
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         <div>id="s
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 18
+󰘫  |1: (
+󰘫  |1: delta |2: "s |3:         <div>id="s |4:         <div>id=" |5: {}
+
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 19
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         <div>id="sk
+󰘫  |1: delta |2: sk |3:         <div>id="sk |4:         <div>id="s |5: {}
+
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         <div>id="ske
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 20
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: delta |2: ke |3:         <div>id="ske |4:         <div>id="sk |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         <div>id="sket
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 21
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2: et |3:         <div>id="sket |4:         <div>id="ske |5: {}
+
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 22
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         <div>id="sketc
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: delta |2: tc |3:         <div>id="sketc |4:         <div>id="sket |5: {}
+
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 23
+󰘫  |1: delta |2: ch |3:         <div>id="sketch |4:         <div>id="sketc |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         <div>id="sketch
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: lsp cap:  |2: true |3: false |4: 24
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         <div>id="sketchP
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: (
+󰘫  |1: ( |2: true
+󰘫  |1: delta |2: hP |3:         <div>id="sketchP |4:         <div>id="sketch |5: {}
+
+󰘫  |1: changed
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         <div>id="sketchPa
+󰘫  |1: lsp cap:  |2: true |3: false |4: 25
+󰘫  |1: (
+󰘫  |1: delta |2: Pa |3:         <div>id="sketchPa |4:         <div>id="sketchP |5: {}
+
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 26
+󰘫  |1: delta |2: ad |3:         <div>id="sketchPad |4:         <div>id="sketchPa |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         <div>id="sketchPad
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         <div>id="sketchPadC
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: delta |2: dC |3:         <div>id="sketchPadC |4:         <div>id="sketchPad |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 27
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         <div>id="sketchPadCo
+󰘫  |1: ( |2: true
+󰘫  |1: lsp cap:  |2: true |3: false |4: 28
+󰘫  |1: (
+󰘫  |1: delta |2: Co |3:         <div>id="sketchPadCo |4:         <div>id="sketchPadC |5: {}
+
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: ( |2: true
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 29
+󰘫  |1: delta |2: on |3:         <div>id="sketchPadCon |4:         <div>id="sketchPadCo |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         <div>id="sketchPadCon
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: ( |2: true
+󰘫  |1: lsp cap:  |2: true |3: false |4: 30
+󰘫  |1: delta |2: nt |3:         <div>id="sketchPadCont |4:         <div>id="sketchPadCon |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         <div>id="sketchPadCont
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 31
+󰘫  |1: delta |2: ta |3:         <div>id="sketchPadConta |4:         <div>id="sketchPadCont |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         <div>id="sketchPadConta
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: ( |2: true
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: delta |2: ai |3:         <div>id="sketchPadContai |4:         <div>id="sketchPadConta |5: {}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 32
+󰘫  |1: (
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         <div>id="sketchPadContai
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 33
+󰘫  |1: delta |2: in |3:         <div>id="sketchPadContain |4:         <div>id="sketchPadContai |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         <div>id="sketchPadContain
+󰘫  |1: (
+󰘫  |1: ( |2: true
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: (
+󰘫  |1: lsp cap:  |2: true |3: false |4: 34
+󰘫  |1: delta |2: ne |3:         <div>id="sketchPadContaine |4:         <div>id="sketchPadContain |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         <div>id="sketchPadContaine
+󰘫  |1: changed
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: (
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:         <div>id="sketchPadContainer
+󰘫  |1: delta |2: er |3:         <div>id="sketchPadContainer |4:         <div>id="sketchPadContaine |5: {}
+
+󰘫  |1: ( |2: true
+󰘫  |1: lsp cap:  |2: true |3: false |4: 35
+󰘫  |1: changed
+󰘫  |1: (
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:       <div>id="sketchPadContainer">
+󰘫  |1: lsp cap:  |2: true |3: false |4: 35
+󰘫  |1: ( |2: true
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:       <div
+󰘫  |1: lsp cap:  |2: true |3: false |4: 10
+󰘫  |1: ( |2: true
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: delta |2: v>id="sketchPadContainer"> |3:       <div |4:       <div>id="sketchPadContainer"> |5: {}
+
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: ( |2: true
+󰘫  |1: lsp cap:  |2: true |3: false |4: 11
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:       <div 
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: (
+󰘫  |1: delta |2: v  |3:       <div  |4:       <div |5: {}
+
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: mode:    |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: insert enter
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: <
+󰘫  |1: lsp cap:  |2: true |3: false |4: 1
+󰘫  |1: delta |2: < |3: < |4:  |5: {}
+
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: </
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 2
+󰘫  |1: delta |2: </ |3: </ |4: < |5: {}
+
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: </html>
+󰘫  |1: (
+󰘫  |1: ( |2: true
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: delta |2: /html> |3: </html> |4: </ |5: {}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 7
+󰘫  |1: Insert leave cleanup
+󰘫  |1: mode:    |2: n
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: Insert leave cleanup
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: mode:    |2: n
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: </html
+󰘫  |1: ( |2: true
+󰘫  |1: (
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: delta |2: </html |3: </html |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: lsp cap:  |2: true |3: false |4: 6
+󰘫  |1: signature handler
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: delta |2: </html |3:  |4: </html |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: no valid signatures
+󰘫  |1: signature handler
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: delta |2:  |3: 
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: delta |2:  |3: 
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: delta |2:  |3: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: delta |2:  |3: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: delta |2:  |3: 
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: delta |2:  |3: 
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: delta |2:  |3: 
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: delta |2:  |3: 
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: delta |2:  |3: 
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: delta |2:  |3: 
+󰘫  |1: no valid signatures
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:   <div id="conte
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 16
+󰘫  |1: delta |2:   <div id="conte |3:   <div id="conte |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:   <div id="conte
+󰘫  |1: lsp cap:  |2: true |3: false |4: 16
+󰘫  |1: delta |2:   <div id="conte |3:   <div id="conte |4:   <div id="conte |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: delta |2:  |3: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: no valid signatures
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: no valid signatures
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: no valid signatures
+󰘫  |1: insert enter
+󰘫  |1: changed
+󰘫  |1: delta |2:      |3:      |4:  |5: {}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2:     
+󰘫  |1: lsp cap:  |2: true |3: false |4: 4
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: changed
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: //]]></script>
+󰘫  |1: [%(][^%(%)]*$ |2: %( |3: ^%(%)
+󰘫  |1: lsp cap:  |2: true |3: false |4: 14
+󰘫  |1: delta |2: ]></script> |3: //]]></script> |4:      |5: {}
+
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: cleanup vt |2: 5
+󰘫  |1: async cleanup:  |2: c
+󰘫  |1: close timer
+󰘫  |1: mode:    |2: c
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: delta |2:  |3: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: no valid signatures
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: no valid signatures
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: no valid signatures
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: delta |2:  |3: 
+󰘫  |1: no valid signatures
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: delta |2:  |3: 
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: delta |2:  |3: 
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  triggerCharacters = { "(" }
+}
+ |2: 
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: newline, lets try signature based on setup
+󰘫  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+󰘫  |1: lsp cap:  |2: true |3: false |4: 0
+󰘫  |1: no valid signatures
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = true,
+  floating_window = false,
+  floating_window_above_cur_line = true,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 50,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: hover not supported
+󰘫  |1: skip: signature capabilities not enabled
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: lsp cap:  |2: false |3: false
