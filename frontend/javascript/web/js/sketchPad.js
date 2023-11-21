@@ -15,9 +15,6 @@ box-shadow: 0px 0px 10px 2px black;
 
     this.#addEventListeners();
   }
-  haveReset() {
-    this.path = [];
-  }
 
   #addEventListeners() {
     this.canvas.onmousedown = (evt) => {
@@ -43,6 +40,12 @@ box-shadow: 0px 0px 10px 2px black;
     this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
     draw.path(this.ctx, this.path);
   }
+  haveReset() {
+    console.log("have reset");
+    this.path.length = 0;
+    this.ctx.clearRect(0,0,this.canvas.width, this.canvas.height);
+    ;
+  }
   #getmouse = (evt) => {
     const rect = this.canvas.getBoundingClientRect();
     return [
@@ -51,3 +54,6 @@ box-shadow: 0px 0px 10px 2px black;
     ];
   }
 }
+
+// const sketchPad = new SketchPad(document.getElementById("sketchPadContainer"));
+

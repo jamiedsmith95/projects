@@ -2,14 +2,13 @@ body{
   font-family:Arial;
   background-color: skyblue;
 }
+
 #resetButton{
   background-color: lightgreen;
-
   position:relative;
   top:50%;
   left:50%;
   transform: translate(-50%,-10%);
-  
 }
 
 #content{
