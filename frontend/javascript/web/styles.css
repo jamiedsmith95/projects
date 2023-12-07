@@ -1,5 +1,6 @@
 body{
   font-family:Arial;
+  overscroll-behavior: none; 
   background-color: skyblue;
 }
 
@@ -10,13 +11,12 @@ button{
   height:22px;
   background-color: lightgreen;
   position:relative;
-  align:center;
+  align-self:center;
   border-radius:5px;
 }
 button:hover{
   background-color:cyan;
 }
-
 #content{
   position:absolute;
   top:50%;
@@ -24,14 +24,25 @@ button:hover{
   transform:translate(-50%,-50%);
   text-align:center;
 }
-
 .row{
   display:flex;
-  
+  align-items: center;
 }
 .thumb{
-  width: 10%;
+  width: 100%;
 }
 .rowLabel{
-  width:15%;
+  flex:2 1 0;
+  text-overflow: ellipsis;
+  white-space:nowrap;
 }
+.sampleContainer{
+  flex:1 1 0;
+  background-color: white;
+  text-align: center;
+  border-radius: 10%;
+  margin: 1px;
+  overflow: hidden;
+}
+  
+
