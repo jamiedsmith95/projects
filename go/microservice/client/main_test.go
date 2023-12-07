@@ -1,10 +1,9 @@
 package main
 
 import (
-	"context"
+	"fmt"
 	"testing"
 
-	"github.com/go-openapi/strfmt"
 	"my.org/micro/client/client"
 	"my.org/micro/client/client/products"
 )
@@ -12,9 +11,16 @@ import (
 
 func TestOurClient(t *testing.T) {
   cfg := client.DefaultTransportConfig().WithHost("localhost:9090")
-  c := client.NewHTTPClientWithConfig(strfmt.Default,cfg)
-  ctx := context.Background()
-  c.Products.ListProducts(products.NewListProductsParamsWithContext(ctx))
+  c := client.NewHTTPClientWithConfig(nil,cfg)
+
+  params := products.NewListProductsParams()
+  prod, err := c.Products.ListProducts(params)
+
+  if err != nil {
+    t.Fatal(err)
+  }
+  fmt.Printf("prod: %v\n", prod)
+
 
   // c.Products.ListProducts(&params)
   

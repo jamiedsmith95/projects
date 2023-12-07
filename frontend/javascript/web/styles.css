@@ -24,3 +24,14 @@ button:hover{
   transform:translate(-50%,-50%);
   text-align:center;
 }
+
+.row{
+  display:flex;
+  
+}
+.thumb{
+  width: 10%;
+}
+.rowLabel{
+  width:15%;
+}
