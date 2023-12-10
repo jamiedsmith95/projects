@@ -10,23 +10,25 @@
 <body>
   <h1>Data Viewer</h1>
   <div id="inputContainer">
+    <div id="predictedLabelContainer"></div>
     <button id="undoButton">↩</button>
     <button id="resetButton">🔁</button>
     <button id="redoButton">↪</button>
-</div>
+  </div>
   <div id="chartContainer"></div>
   <div id="container"></div>
   <script src="../common/js_objects/features.js"></script>
   <script src="../common/constants.js"></script>
   <script src="../common/utils.js"></script>
+  <script src="../common/featureFunctions.js"></script>
   <script src="../common/draw.js"></script>
   <script src="js/display.js"></script>
   <script src="js/sketchPad.js"></script>
   <script src="js/buttons.js"></script>
   <script defer async="false" src="https://www.google.com/jsapi"></script>
-    <script src="./chart/graphics.js"></script>
-    <script src="./chart/math.js"></script>
-    <script src="./chart/chart.js"></script>
+  <script src="./chart/graphics.js"></script>
+  <script src="./chart/math.js"></script>
+  <script src="./chart/chart.js"></script>
 
   <script>
     const {samples, featureNames} = features;
@@ -35,26 +37,60 @@
     for (let user_id in groups) {
       const samples = groups[user_id];
       const userName = samples[0].user_name;
-      console.log(userName);
       createRow(container, userName, samples);
     }
     const options = {
-      size:400,
-      axesLabels:featureNames,
-      styles:utils.styles,
-      transparency:0.7,
-      icon:"image"
+      size: 400,
+      axesLabels: featureNames,
+      styles: utils.styles,
+      transparency: 0.7,
+      icon: "image"
     };
     graphics.generateImages(utils.styles);
 
-    const chart=new Chart(
+    const chart = new Chart(
       chartContainer,
       samples,
       options,
       handleClick
     );
-    const sketchPad=
-      new SketchPad(inputContainer);
+    const sketchPad =
+      new SketchPad(inputContainer, onDrawingUpdate);
+
+    function onDrawingUpdate(paths) {
+      const point = featureFunctions.inUse.map(f => f.function(paths));
+      chart.showDynamicPoint(point);
+      const label = classify(point);
+      if (paths.length == 0) {
+        predictedLabelContainer.innerHTML = "DRAW";
+      } else {
+        predictedLabelContainer.innerHTML = "Is it a " + label + " ?";
+      }
+
+    }
+    function classify(point) {
+      const samplePoints = samples.map(s => s.point);
+      const indexs = utils.getLocalGroup(point, samplePoints);
+      console.log(indexs);
+      let labels = []
+      for (let i = 0; i < indexs.length; i++) {
+        const idx = indexs[i];
+        console.log(samples[idx].label);
+        labels.push(samples[idx].label);
+        console.log(labels);
+      }
+
+
+      const label = utils.getMode(labels);
+      return label;
+
+    }
+    <!-- <!-1- function classify(point) { -1-> -->
+    <!-- < !--   const samplePoints = samples.map(s => s.point); -1-> -->
+    <!-- < !--   const index = utils.getNearest(point, samplePoints); -1-> -->
+    <!-- < !--   const nearestSample = samples[index]; -1-> -->
+    <!-- < !--   return nearestSample.label; -1-> -->
+    <!-- < !-- } -1-> -->
   </script>
 </body>
 

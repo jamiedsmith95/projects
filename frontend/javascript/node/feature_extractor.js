@@ -1,5 +1,6 @@
-const constants = require('../common/constants.js')
-const features = require('../common/features.js')
+const constants = require('../common/constants.js');
+const featureFunctions = require('../common/featureFunctions.js');
+const features = require('../common/featureFunctions.js')
 const utils = require('../common/utils.js')
 
 const fs = require('fs');
@@ -15,15 +16,11 @@ for (const sample of samples){
       constants.JSON_DIR + "/"+sample.id+".json"
     )
   )
-  sample.point = [
-    features.getPathCount(paths),
-    features.getPointCount(paths)
-  ];
-  utils.printProgress(sample.id,samples.length)
+  const functions = featureFunctions.inUse.map(f=>f.function);
+  sample.point=functions.map(f=>f(paths));
 }
-console.log('')
 
-const featureNames = ["Path Count", "Point Count"];
+const featureNames = featureFunctions.inUse.map(f=>f.name)
 
 fs.writeFileSync(constants.FEATURES,
   JSON.stringify({ featureNames, samples }));

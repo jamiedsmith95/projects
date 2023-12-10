@@ -1,5 +1,5 @@
 class SketchPad{
-  constructor(container, size = 400) {
+  constructor(container,onUpdate=null, size = 400) {
     this.canvas = document.createElement("canvas");
     this.canvas.width = size;
     this.canvas.height = size;
@@ -10,6 +10,8 @@ box-shadow: 0px 0px 10px 2px black;
     container.appendChild(this.canvas);
 
     this.ctx = this.canvas.getContext("2d");
+
+    this.onUpdate=onUpdate;
     this.paths = [];
     this.isDrawing = false;
     this.historyStorage = [];
@@ -54,6 +56,9 @@ box-shadow: 0px 0px 10px 2px black;
   #redraw() {
     this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
     draw.paths(this.ctx, this.paths);
+    if(this.onUpdate){
+      this.onUpdate(this.paths);
+    }
   }
   redo(){
     if (this.historyStorage.length > 0) {
@@ -69,7 +74,10 @@ box-shadow: 0px 0px 10px 2px black;
   haveReset() {
     this.paths.length = 0;
     this.ctx.clearRect(0,0,this.canvas.width, this.canvas.height);
+    this.#redraw();
+    chart.hideDynamicPoint();
   };
+
 
   #getmouse = (evt) => {
     const rect = this.canvas.getBoundingClientRect();
