@@ -10,13 +10,14 @@ utils.distance = (p1, p2) => {
     (p1[1] - p2[1]) ** 2
   );
 }
+// could also implement k nearest rather than radius selection. also need to generalise to n dimensions.
 utils.getLocalGroup = (loc, points) => {
 
   let idxs = [];
 
-  for (let i = 0; i<points.length;i++) {
-    const dist = utils.distance(loc,points[i]);
-    if (dist <= [20]) {
+  for (let i = 0; i < points.length; i++) {
+    const dist = utils.distance(loc, points[i]);
+    if (dist <= [1 / 20]) {
       idxs.push(i);
     }
   }
@@ -26,9 +27,9 @@ utils.getLocalGroup = (loc, points) => {
 utils.getMode = (labels) => {
   const counts = {};
 
-  for (let i = 0;i<labels.length;i++){
+  for (let i = 0; i < labels.length; i++) {
     if (counts[labels[i]]) {
-      counts[labels[i]]  += 1;
+      counts[labels[i]] += 1;
     } else {
       counts[labels[i]] = 1;
     }
@@ -38,7 +39,7 @@ utils.getMode = (labels) => {
 
   Object.keys(counts).forEach(key => {
     let value = counts[key];
-    if (value > leaderVal){
+    if (value > leaderVal) {
       leaderVal = value;
       leaderKey = key;
     }
@@ -46,7 +47,37 @@ utils.getMode = (labels) => {
   return leaderKey
 }
 
+utils.invLerp = (a, b, v) => {
+  return (v - a) / (b - a);
+}
 
+utils.normalisePoint = (points, minMax) => {
+  if (minMax) {
+    let { min, max } = minMax;
+  } else {
+    let min, max;
+    min = [...points[0]];
+    max = [...points[0]];
+    for (let i = 1; i < points.length; i++) {
+      for (let j = 0; j < min.length; j++) {
+        if (points[i][j] > max[j]) {
+          max[j] = points[i][j];
+        }
+        if (points[i][j] < min[j]) {
+          min[j] = points[i][j]
+        }
+      }
+
+    }
+  }
+  for (let i = 0; i < points.length; i++) {
+    for (let j = 0; j < min.length; j++) {
+      points[i][j] = utils.invLerp(min[j], max[j], points[i][j]);
+    }
+  }
+
+  return { min, max };
+}
 
 utils.getNearest = (loc, points) => {
   let minDist = Number.MAX_SAFE_INTEGER;
