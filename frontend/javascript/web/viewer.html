@@ -15,13 +15,18 @@
     <button id="resetButton">🔁</button>
     <button id="redoButton">↪</button>
   </div>
-  <div id="chartContainer"></div>
+  <div id="chartContainer">
+    <div id="statistics"></div>
+  </div>
   <div id="container"></div>
   <script src="../common/js_objects/features.js"></script>
+  <script src="../common/js_objects/testing.js"></script>
+  <script src="../common/js_objects/training.js"></script>
   <script src="../common/js_objects/minMax.js"></script>
   <script src="../common/constants.js"></script>
   <script src="../common/utils.js"></script>
   <script src="../common/featureFunctions.js"></script>
+  <script src="../common/classifiers/knn.js"></script>
   <script src="../common/draw.js"></script>
   <script src="js/display.js"></script>
   <script src="js/sketchPad.js"></script>
@@ -33,13 +38,51 @@
 
   <script>
     const {samples, featureNames} = features;
-    const groups = utils.groupBy(samples, "user_id");
-    const {min,max} = minMax;
+    const trainingSamples = training.samples;
+    const testingSamples = testing.samples;
+    const {min, max} = minMax;
+    const k=50;
+    const kNN=new KNN(trainingSamples,k);
 
-    for (let user_id in groups) {
-      const samples = groups[user_id];
+    let correctCount = 0;
+    let totalCount = 0;
+
+    for (const testSample of testingSamples) {
+      testSample.truth = testSample.label;
+      testSample.label = "?";
+      const label = kNN.predict(testSample.point);
+      testSample.label = label;
+      testSample.correct = (testSample.truth == testSample.label);
+      if (testSample.correct) {
+        correctCount += 1;
+        totalCount += 1;
+      } else {
+        totalCount += 1;
+      }
+    }
+    statistics.innerHTML = "<b>ACCURACY</b><br>" + correctCount + "/" + totalCount + " (" + utils.formatPercent(correctCount / totalCount) + ")";
+    for (const trainSample of trainingSamples) {
+      trainSample.correct = true;
+
+    }
+
+    const trainingGroups = utils.groupBy(trainingSamples, "user_id");
+    for (let user_id in trainingGroups) {
+      const samples = trainingGroups[user_id];
       const userName = samples[0].user_name;
-      createRow(container, userName, samples);
+
+      createRow(container, userName, samples, true);
+    }
+    const testingGroups = utils.groupBy(testingSamples, "user_id");
+    const subtitle = document.createElement("h2");
+    subtitle.innerHTML = "TESTING SAMPLE";
+    container.appendChild(subtitle);
+
+    for (let user_id in testingGroups) {
+      const samples = testingGroups[user_id];
+      const correct = samples.map(s => s.correct);
+      const userName = samples[0].user_name;
+      createRow(container, userName, samples, correct);
     }
     const options = {
       size: 400,
@@ -52,7 +95,7 @@
 
     const chart = new Chart(
       chartContainer,
-      samples,
+      trainingSamples,
       options,
       handleClick
     );
@@ -61,11 +104,11 @@
 
     function onDrawingUpdate(paths) {
       const point = featureFunctions.inUse.map(f => f.function(paths));
-      for (let i=0;i<min.length;i++) {
-        point[i]/(max[i]-min[i])
+      for (let i = 0; i < min.length; i++) {
+        point[i] / (max[i] - min[i])
       }
       chart.showDynamicPoint(point);
-      const label = classify(point,"near");
+      const label = classify(point, "near");
       if (paths.length == 0) {
         predictedLabelContainer.innerHTML = "DRAW";
       } else {
@@ -73,26 +116,23 @@
       }
 
     }
-    function classify(point, type = "near") {
-      if (type == "mode") {
+    function classify(point, type = "Kmode") {
+      if (type == "Kmode") {
 
-        const samplePoints = samples.map(s => s.point);
-        const indexs = utils.getLocalGroup(point, samplePoints);
-        console.log(indexs);
+        const samplePoints = trainingSamples.map(s => s.point);
+        const indexs = utils.getKNearest(point, samplePoints, k);
         let labels = []
         for (let i = 0; i < indexs.length; i++) {
           const idx = indexs[i];
-          console.log(samples[idx].label);
-          labels.push(samples[idx].label);
-          console.log(labels);
+          labels.push(trainingSamples[idx].label);
         }
         const label = utils.getMode(labels);
         return label;
       } else if (type == "near") {
 
-        const samplePoints = samples.map(s => s.point);
+        const samplePoints = trainingSamples.map(s => s.point);
         const index = utils.getNearest(point, samplePoints);
-        const nearestSample = samples[index];
+        const nearestSample = trainingSamples[index];
         return nearestSample.label;
       }
     }

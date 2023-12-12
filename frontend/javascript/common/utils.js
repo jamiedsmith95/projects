@@ -5,22 +5,28 @@ utils.formatPercent = (n) => {
 }
 
 utils.distance = (p1, p2) => {
-  return Math.sqrt(
-    (p1[0] - p2[0]) ** 2 +
-    (p1[1] - p2[1]) ** 2
-  );
+  let sum = 0;
+  for (let i = 0; i < p1.length; i++) {
+    sum += (p1[i] - p2[i]) ** 2
+  }
+  return Math.sqrt(sum);
 }
 // could also implement k nearest rather than radius selection. also need to generalise to n dimensions.
-utils.getLocalGroup = (loc, points) => {
-
-  let idxs = [];
-
+utils.getKNearest = (loc, points, k) => {
+  let list = [];
   for (let i = 0; i < points.length; i++) {
     const dist = utils.distance(loc, points[i]);
-    if (dist <= [1 / 20]) {
-      idxs.push(i);
-    }
+    list.push({ 'idx': i, 'dist': dist })
   }
+  list.sort(function(a, b) {
+    return ((a.dist < b.dist) ? -1 : ((a.dist == b.dist) ? 0 : 1));
+  })
+  let idxs = [];
+  for (let i = 0; i < k; i++) {
+    idxs.push(list[i].idx);
+
+  }
+
   return idxs;
 }
 
@@ -52,10 +58,11 @@ utils.invLerp = (a, b, v) => {
 }
 
 utils.normalisePoint = (points, minMax) => {
+  let min, max = [];
   if (minMax) {
-    let { min, max } = minMax;
+    min = minMax.min;
+    max  = minMax.max;
   } else {
-    let min, max;
     min = [...points[0]];
     max = [...points[0]];
     for (let i = 1; i < points.length; i++) {
@@ -69,7 +76,7 @@ utils.normalisePoint = (points, minMax) => {
       }
 
     }
-  }
+  };
   for (let i = 0; i < points.length; i++) {
     for (let j = 0; j < min.length; j++) {
       points[i][j] = utils.invLerp(min[j], max[j], points[i][j]);
@@ -104,6 +111,7 @@ utils.styles = {
   pencil: { color: 'magenta', text: '✏' },
   clock: { color: 'lightgray', text: '🕔' }
 }
+utils.styles["?"] = { color: 'red', text: '❓' };
 
 utils.printProgress = (count, max) => {
   process.stdout.clearLine();

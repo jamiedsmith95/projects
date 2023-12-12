@@ -9,7 +9,7 @@ function createRow(container, userName, samples) {
   row.appendChild(rowLabel);
 
   for (let sample of samples) {
-    const { id, label } = sample;
+    const { id, label,correct } = sample;
 
     const sampleContainer = document.createElement("div");
     sampleContainer.id = "sample_" + id;
@@ -19,6 +19,11 @@ function createRow(container, userName, samples) {
     sampleContainer.onmouseover = () =>
       handleHover(sample)
     sampleContainer.classList.add("sampleContainer")
+    if (correct){
+      sampleContainer.style.backgroundColor="lightgreen";
+    } else {
+      sampleContainer.style.backgroundColor="red";
+    }
 
     const sampleLabel = document.createElement("div")
     sampleLabel.id = "sampleLabel"

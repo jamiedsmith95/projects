@@ -90,7 +90,13 @@ button:hover{
   top:50%;
   transform:translate(-20px,calc(-150% + 30px));
 }
-
+#statistics{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  visibility: visible;
+}
 #predictedLabelContainer{
   color:white;
   font-size: 20px;
